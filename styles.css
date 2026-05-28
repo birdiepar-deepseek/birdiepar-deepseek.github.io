@@ -54,13 +54,6 @@ a {
   text-decoration: none;
 }
 
-.brand img {
-  width: 44px;
-  height: 32px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -95,26 +88,7 @@ footer {
 }
 
 .hero-content {
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.75fr);
-  gap: clamp(28px, 5vw, 72px);
-  align-items: center;
-}
-
-.hero-copy {
-  min-width: 0;
-}
-
-.hero-logo {
-  display: block;
-  width: 100%;
-  max-width: 520px;
-  height: auto;
-  justify-self: end;
-  border-radius: 8px;
-  background: #3d4140;
-  border: 1px solid rgba(255, 255, 255, 0.54);
-  box-shadow: 0 22px 70px rgba(23, 33, 38, 0.34);
+  padding: 0;
 }
 
 .eyebrow {
@@ -277,16 +251,6 @@ footer a {
 
   .hero {
     min-height: auto;
-  }
-
-  .hero-content {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-logo {
-    width: min(480px, 100%);
-    justify-self: start;
-    order: -1;
   }
 
   .grid,
