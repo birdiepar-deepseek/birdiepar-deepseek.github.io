@@ -46,9 +46,19 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1rem;
   font-weight: 750;
   text-decoration: none;
+}
+
+.brand img {
+  width: 44px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 nav {
@@ -86,6 +96,15 @@ footer {
 
 .hero-content {
   padding: 0;
+}
+
+.hero-logo {
+  display: block;
+  width: min(440px, 72vw);
+  height: auto;
+  margin: 0 0 24px;
+  border-radius: 8px;
+  box-shadow: 0 20px 70px rgba(23, 33, 38, 0.2);
 }
 
 .eyebrow {
@@ -220,6 +239,12 @@ article p,
   color: #d8e8e3;
 }
 
+.contact a {
+  color: var(--white);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 750;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -227,6 +252,10 @@ footer {
   padding: 24px clamp(20px, 5vw, 64px) 44px;
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+footer a {
+  color: inherit;
 }
 
 @media (max-width: 780px) {
@@ -238,6 +267,10 @@ footer {
 
   .hero {
     min-height: 78vh;
+  }
+
+  .hero-logo {
+    width: min(360px, 100%);
   }
 
   .grid,
