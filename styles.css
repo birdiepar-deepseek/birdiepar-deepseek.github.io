@@ -436,6 +436,13 @@ article p,
   color: var(--accent);
 }
 
+.related-note ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 1.2em;
+}
+
 .note-index h1 {
   max-width: 760px;
   margin: 0;
