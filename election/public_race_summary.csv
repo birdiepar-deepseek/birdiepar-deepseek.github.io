@@ -1,0 +1,47 @@
+race_id,chamber,state_district,baseline_party_advantage,surprise_risk_score,surprise_risk_label,polling_status,missing_data_uncertainty_label,latest_updated
+HOUSE-AZ-01-2026,U.S. House,AZ-1,No clear advantage,18.0,low,limited/missing,high,2026-06-01T00:11:58
+HOUSE-AZ-06-2026,U.S. House,AZ-6,No clear advantage,5.0,low,available,standard,2026-06-01T00:11:58
+HOUSE-CA-22-2026,U.S. House,CA-22,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-CO-08-2026,U.S. House,CO-8,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-FL-25-2026,U.S. House,FL-25,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-IA-01-2026,U.S. House,IA-1,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-IA-03-2026,U.S. House,IA-3,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-MI-07-2026,U.S. House,MI-7,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-NJ-07-2026,U.S. House,NJ-7,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-OH-09-2026,U.S. House,OH-9,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-PA-07-2026,U.S. House,PA-7,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-PA-10-2026,U.S. House,PA-10,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-TX-34-2026,U.S. House,TX-34,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-VA-02-2026,U.S. House,VA-2,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-WI-03-2026,U.S. House,WI-3,No clear advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+SEN-MI-2026,U.S. Senate,MI,No clear advantage,5.0,low,available,standard,2026-06-01T00:11:58
+SEN-ME-2026,U.S. Senate,ME,No clear advantage,5.0,low,available,standard,2026-06-01T00:11:58
+SEN-OH-SPECIAL-2026,U.S. Senate,OH,No clear advantage,5.0,low,available,standard,2026-06-01T00:11:58
+HOUSE-MI-10-2026,U.S. House,MI-10,Republican advantage,23.0,watch,limited/missing,high,2026-06-01T00:11:58
+SEN-NC-2026,U.S. Senate,NC,Democratic advantage,10.0,low,available,standard,2026-06-01T00:11:58
+HOUSE-NY-17-2026,U.S. House,NY-17,Republican advantage,18.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-PA-08-2026,U.S. House,PA-8,Republican advantage,18.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-WA-03-2026,U.S. House,WA-3,Democratic advantage,18.0,low,limited/missing,standard,2026-06-01T00:11:58
+SEN-GA-2026,U.S. Senate,GA,Democratic advantage,20.0,watch,available,standard,2026-06-01T00:11:58
+HOUSE-CA-48-2026,U.S. House,CA-48,Democratic advantage,18.0,low,limited/missing,high,2026-06-01T00:11:58
+HOUSE-NE-02-2026,U.S. House,NE-2,Democratic advantage,18.0,low,limited/missing,high,2026-06-01T00:11:58
+SEN-NH-2026,U.S. Senate,NH,Democratic advantage,5.0,low,available,standard,2026-06-01T00:11:58
+HOUSE-CA-13-2026,U.S. House,CA-13,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-CA-45-2026,U.S. House,CA-45,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-FL-14-2026,U.S. House,FL-14,Republican advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-FL-22-2026,U.S. House,FL-22,Republican advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-MI-08-2026,U.S. House,MI-8,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-NC-01-2026,U.S. House,NC-1,Republican advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-NM-02-2026,U.S. House,NM-2,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-NV-03-2026,U.S. House,NV-3,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-NY-03-2026,U.S. House,NY-3,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-NY-04-2026,U.S. House,NY-4,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-NY-19-2026,U.S. House,NY-19,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-OH-01-2026,U.S. House,OH-1,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-TX-28-2026,U.S. House,TX-28,Democratic advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+HOUSE-VA-01-2026,U.S. House,VA-1,Republican advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+SEN-AK-2026,U.S. Senate,AK,Republican advantage,5.0,low,available,standard,2026-06-01T00:11:58
+SEN-TX-2026,U.S. Senate,TX,Republican advantage,55.0,elevated,available,standard,2026-06-01T00:11:58
+SEN-IA-2026,U.S. Senate,IA,Republican advantage,5.0,low,available,standard,2026-06-01T00:11:58
+SEN-FL-SPECIAL-2026,U.S. Senate,FL,Republican advantage,13.0,low,limited/missing,standard,2026-06-01T00:11:58
+SEN-NE-2026,U.S. Senate,NE,Republican advantage,19.0,low,limited/missing,standard,2026-06-01T00:11:58
