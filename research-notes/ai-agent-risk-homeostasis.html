@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Precision Analytica research note on why better AI model capability may not reduce enterprise AI incidents when firms expand delegated authority until governance capacity binds.">
+    <title>Why Safer AI Models May Not Mean Fewer AI Incidents | Precision Analytica</title>
+    <link rel="stylesheet" href="../styles.css?v=3">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span>Precision Analytica</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="/#research">Research</a>
+        <a href="/#notes">Research Notes</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#about">About</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article class="note">
+        <header class="note-header">
+          <a class="back-link" href="/research-notes/">Back to Research Notes</a>
+          <p class="eyebrow">Research Note</p>
+          <h1>Why Safer AI Models May Not Mean Fewer AI Incidents</h1>
+          <p class="note-subtitle">Delegation risk homeostasis, AI agent liability, and the underwriting problem created by autonomous enterprise workflows</p>
+          <dl class="note-meta">
+            <div>
+              <dt>Date</dt>
+              <dd>2026-06-18</dd>
+            </div>
+            <div>
+              <dt>Author</dt>
+              <dd>Precision Analytica</dd>
+            </div>
+          </dl>
+        </header>
+
+        <div class="note-body">
+          <p><em>Precision Analytica Research Notes</em></p>
+
+          <p>Much of the public debate about AI safety asks whether newer models are better than older ones. Do they hallucinate less? Do they follow instructions more reliably? Can they reason across longer workflows? Are they less likely to produce a bad answer on a fixed task?</p>
+
+          <p>Those questions matter. But they are not enough for insurers, risk managers, or institutions that must live with AI agents inside real organizations.</p>
+
+          <p>Our research on AI agent risk, operational delegation, governance capacity, and insurance underwriting starts from a different question: what happens after the model gets better?</p>
+
+          <blockquote>
+            <p>Core idea: better AI models lower fixed-task failure risk, but firms may respond by delegating harder and higher-authority tasks. The safety dividend can be spent on wider delegation rather than fewer incidents.</p>
+          </blockquote>
+
+          <p>The result is a mechanism we call <strong>delegation risk homeostasis</strong>. Model capability improves, but firms expand the authority envelope around AI agents until some other constraint binds: oversight, audit capacity, escalation discipline, workflow design, legal accountability, or organizational learning. Safer models may therefore change the location and scale of incidents without mechanically reducing their frequency.</p>
+
+          <h2>Why safer models may not mean fewer incidents</h2>
+
+          <p>A safer model can reduce risk for a fixed task. If yesterday&rsquo;s system made errors in invoice classification, ticket routing, claims triage, code review, or customer support, a better model may perform that same task more reliably.</p>
+
+          <p>But enterprise AI is rarely held fixed. As reliability improves, firms do not simply enjoy the original safety margin. They often expand usage. They delegate more tasks, allow agents to act across more systems, increase transaction volume, shorten human review, or move from advice to execution.</p>
+
+          <p>This is not irrational. It is how productivity tools diffuse. A tool that becomes more reliable becomes useful in more places. The problem is that incident risk is shaped by both unit reliability and the amount of authority placed on top of that reliability.</p>
+
+          <p>For underwriting, the relevant exposure is not only the model&rsquo;s benchmark performance. It is the interaction between model capability, delegated authority, workflow volume, and governance capacity.</p>
+
+          <h2>The core mechanism</h2>
+
+          <p>Delegation risk homeostasis is the organizational version of a familiar risk pattern: when a safety improvement lowers perceived danger, behavior adjusts. The net risk reduction can be smaller than the technical improvement suggests.</p>
+
+          <p>In AI-agent settings, the adjustment occurs through delegation. A firm may give the agent broader scope, higher transaction limits, fewer review gates, greater access to operational systems, or more discretion over edge cases. The model is safer on the old task, but the organization has moved the task boundary.</p>
+
+          <p>The mechanism has three parts:</p>
+
+          <ol>
+            <li>Model improvement lowers the apparent failure probability for tasks the firm already understands.</li>
+            <li>The firm responds by expanding the set, complexity, or authority of tasks delegated to the AI agent.</li>
+            <li>Governance capacity does not expand at the same speed, so incidents reappear at the new boundary of delegation.</li>
+          </ol>
+
+          <p>The incident rate may fall, stay flat, or even rise, depending on how quickly authority expands relative to oversight. The important point is that safer model generation alone does not determine realized loss.</p>
+
+          <h2>Same number of fires, bigger buildings</h2>
+
+          <p>A simple analogy helps. Suppose building materials become less flammable. If every building stayed the same size, fires would likely decline. But if developers respond by building larger, denser, more complex structures, the fire problem changes. The material is safer, but the exposure envelope has expanded.</p>
+
+          <p>AI agents create a similar pattern. Better models can reduce the probability of failure per unit of task. At the same time, firms may build larger workflows around them: more connected systems, higher autonomy, more customer-facing actions, and greater dependence on machine-generated decisions.</p>
+
+          <p>The result need not be more danger in every case. The result is that loss exposure migrates. The meaningful underwriting unit becomes the whole delegated workflow, not the model in isolation.</p>
+
+          <h2>Release windows and temporary overshoot</h2>
+
+          <p>Capability releases can create temporary windows of overshoot. A new model generation arrives, benchmarks improve, and firms quickly update their expectations about what can be automated. Delegation expands before governance routines are rebuilt around the new scope.</p>
+
+          <p>During that window, the organization may be using a better system inside a less mature control environment. Documentation, monitoring, escalation paths, staff training, audit logs, and contractual allocation of responsibility may lag behind deployment.</p>
+
+          <p>This is where insurers should be especially cautious. The highest risk may not come from the weakest models used in the simplest workflows. It may come from apparently strong models that have been given authority faster than the firm can govern them.</p>
+
+          <h2>Why model generation is not enough for underwriting</h2>
+
+          <p>Insurance underwriting often begins with classification. What model is being used? What vendor? What generation? What benchmark performance? What controls does the provider advertise?</p>
+
+          <p>Those questions are useful, but incomplete. Two firms can use the same model and generate very different risk profiles. One may use it as a drafting assistant with mandatory human approval. Another may connect it to production systems, customer communications, vendor payments, claims handling, or compliance workflows.</p>
+
+          <p>The difference is not the model. It is the authority envelope.</p>
+
+          <p>For AI-agent risk, insurers may need to rate:</p>
+
+          <ol>
+            <li>what actions the agent can take;</li>
+            <li>which systems it can access;</li>
+            <li>where human approval is required;</li>
+            <li>how exceptions are escalated;</li>
+            <li>how logs, prompts, tool calls, and outputs are preserved;</li>
+            <li>how quickly the firm expands delegation after model upgrades;</li>
+            <li>whether governance capacity scales with workflow autonomy.</li>
+          </ol>
+
+          <p>Model generation matters, but it is not the exposure. The exposure is the delegated socio-technical system built around the model.</p>
+
+          <h2>What the theory does and does not claim</h2>
+
+          <p>The theory does not claim that safer AI models are useless. Better models matter. They can reduce errors, widen useful applications, improve monitoring, and make many workflows safer than they would otherwise be.</p>
+
+          <p>The theory also does not claim that incidents must rise. In well-governed environments, model improvement can produce real safety gains.</p>
+
+          <p>The claim is narrower and more important for insurance: fixed-task safety improvements do not automatically translate into lower organizational loss. Firms adapt. Delegation expands. Governance capacity binds. The realized incident profile depends on the equilibrium between capability, authority, and control.</p>
+
+          <h2>The data problem</h2>
+
+          <p>AI-agent incidents are difficult to observe. Public datasets are likely to overrepresent spectacular failures and underrepresent routine near misses, quietly corrected errors, internal escalations, and losses settled without public disclosure.</p>
+
+          <p>For insurers, this creates a measurement problem. The most valuable risk signals may live inside operational telemetry: frequency of human overrides, escalation rates, exception queues, tool-call failures, audit-log gaps, permission changes, and the speed at which teams move from recommendation to execution.</p>
+
+          <p>Our research line treats these as underwriting variables, not merely engineering details. A firm that can describe and monitor its authority envelope is different from a firm that only names the model it uses.</p>
+
+          <h2>Why this matters now</h2>
+
+          <p>AI agents are moving from demonstration to deployment. They are beginning to touch enterprise workflows in customer service, software development, finance operations, procurement, legal review, insurance claims, health administration, compliance triage, and internal analytics.</p>
+
+          <p>As these systems become more capable, the temptation will be to treat model improvement as risk reduction. Sometimes it will be. But in competitive settings, productivity gains are rarely left idle. Firms will spend them on speed, scope, scale, and autonomy.</p>
+
+          <p>That is why AI-agent insurance cannot be built only around model labels. It needs a theory of delegated authority, governance capacity, and organizational adaptation.</p>
+
+          <h2>Bottom line</h2>
+
+          <p>Safer AI models are good. They are not the end of the risk story.</p>
+
+          <p>When firms use better models to delegate more complex and higher-authority tasks, the safety dividend can be converted into expanded exposure. Incidents may move from simple model mistakes to failures of oversight, workflow design, escalation, accountability, and institutional control.</p>
+
+          <p>The underwriting question is therefore not only, &ldquo;How good is the model?&rdquo;</p>
+
+          <p>It is also, &ldquo;What has the organization allowed the model to do, and can its governance capacity keep up?&rdquo;</p>
+
+          <aside class="related-note">
+            <p class="eyebrow">Working Paper</p>
+            <p><strong>Delegation Risk Homeostasis: Why More Capable AI Agents Need Not Produce Fewer Incidents</strong></p>
+            <p>Status: submitted to SSRN; public link forthcoming.</p>
+          </aside>
+
+          <aside class="related-note">
+            <p class="eyebrow">Related Notes</p>
+            <ul>
+              <li><a href="/research-notes/the-ai-augmented-human.html">The AI-Augmented Human</a></li>
+              <li><a href="/research-notes/the-compression-of-us.html">The Compression of Us</a></li>
+            </ul>
+          </aside>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <span>Precision Analytica <span class="footer-separator">-</span> simplifying complexity, connecting the dots</span>
+      <a href="mailto:info@precisionanalytica.com">info@precisionanalytica.com</a>
+    </footer>
+  </body>
+</html>
