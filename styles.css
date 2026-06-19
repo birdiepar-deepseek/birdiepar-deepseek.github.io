@@ -282,6 +282,13 @@ article p,
   color: var(--accent);
 }
 
+.paper-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
 .text-link {
   display: inline-flex;
   margin-top: 22px;
@@ -506,8 +513,13 @@ footer a {
   }
 
   .paper-link,
+  .paper-actions,
   .status {
     justify-self: start;
+  }
+
+  .paper-actions {
+    justify-content: flex-start;
   }
 
   article {
