@@ -78,14 +78,8 @@ summary: "Daily Precision Analytica briefing on institutions, markets, geopoliti
 **Why it matters:** Policy credibility affects business planning and supply-chain risk pricing—especially for advanced compute inputs that enable AI deployment and national competitiveness.
 **What to watch:** Signs of enforcement capacity, compliance workarounds, and whether policymakers tighten implementation to reduce ambiguity.
 
-### 10. Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank
-**Source:** Federal Reserve
-**Original link:** https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm
-**What happened:** The Federal Reserve Board issued enforcement actions involving former employees of Atlantic Union Bank and Frost Bank.
-**Why it matters:** (Consolidation note) This card duplicates the earlier enforcement item; it is retained only if you want a second perspective—but the brief should treat it as a single signal.
-**What to watch:** Resolution timelines and any expanded supervisory messaging.
 
-### 11. The Next Phase of AI: Technology, Infrastructure, and Policy in 2025–2026 - The American Action Forum
+### 10. The Next Phase of AI: Technology, Infrastructure, and Policy in 2025–2026 - The American Action Forum
 **Source:** The American Action Forum
 **Original link:** https://news.google.com/rss/articles/CBMitgFBVV95cUxOVVpCcXk1ODZ2dXdnNjl4RmZkRzc3cERmdXRWTlpjN3QxNndNMmFBQUlKY09ZWHN2eFdJZGZmbWNZVEJQbXJxU1dOT0IwUXJPQUg1Z3pGYUhXLW1IZHlCODdCNUxYTlVfTnhKMlpoTzFZT0ZpeXdRUDBza1R6WjRKbkVqbEU0N0xvY3U0NG1aQXF3LTJ3MDRCblhJX2lJQ0Rud1NGMlkzNFlIckwzTGxyVHpTMHo4UQ?oc=5
 **What happened:** An analysis outlines technology, infrastructure, and policy developments shaping AI across 2025–2026.
