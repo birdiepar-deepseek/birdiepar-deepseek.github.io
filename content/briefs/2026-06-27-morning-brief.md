@@ -8,99 +8,92 @@ summary: "Daily Precision Analytica briefing on institutions, markets, geopoliti
 # Precision Analytica Morning Brief — June 27, 2026
 
 ## Top Storylines
-1. **AI buildout is becoming a macro variable**: data-center demand and the power/compute supply chain are feeding back into inflation dynamics and cost structures.
-2. **Oil’s geopolitical “shock premium” is easing, but volatility remains**: resuming Hormuz traffic is lowering prices toward earlier baselines, with implications for near-term inflation and business planning.
-3. **Monetary policy is operating under cross-pressures**: inflation, labor markets, and energy volatility are continuing to complicate the policy reaction function.
-4. **Law and governance are shaping operational capacity**: courts and state-level rulemaking remain key constraints/inputs for institutions, including immigration detention practices and AI deployment.
-5. **Chip-and-power demand is migrating closer to the handset**: proposals to push data-center power/processing concepts toward smartphones signal a strategic shift in where AI compute is “absorbed.”
-
----
+1. **War-risk shock unwinds in energy markets** as oil prices return toward **pre-Iran war levels**, even while **US-Iran strikes** escalate retaliatory messaging—creating a tug-of-war between supply-route fear and renewed traffic normalisation.
+2. **Heat extremes strain public infrastructure and institutional capacity** across Europe, from **Germany’s record temperatures** to broader system stress signals (school/venue shutdowns, event interruptions).
+3. **US trade and national-security authorities face judicial scrutiny**, with the Supreme Court weighing how IEEPA tariffs could reshape global trade flows and compliance expectations.
+4. **Financial-system oversight continues to focus on individual misconduct**, with Fed enforcement actions tied to former bank employees—signal­ing regulators’ emphasis on accountability mechanisms.
 
 ## Story Cards
+1. ### 1. US strikes Iran after attack on cargo ship  
+   - **Source:** BBC  
+   - **Original link:** https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss  
+   - **What happened:** The BBC reports that the US struck Iran following an attack on a cargo ship; Iran accused the US of violating their deal and said it struck back at targets linked to American forces.  
+   - **Why it matters:** Retaliation cycles amplify risk premiums for shipping and regional operations, but the market can move faster than policy—creating potential second-order volatility in energy, insurance, and supply-chain planning.  
+   - **What to watch:** Follow-on signals about restraint/escalation and whether shipping-route “normalisation” continues or reverses after each strike.
 
-### 1. AI Infrastructure Stocks With Real Exposure to Data Center and Chip Demand - simplywall.st
-**Source:** simplywall.st
-   **Original link:** https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUEVCYlpPaHBtMVQ2UjVWXzIySDhLb21UVDFaR0RLaENXTWtDekJlcHpZS0hWei1UTDJCY215a3RWSWdzTk5zN2NwalhhVFljMF9Jd0FTc2pZZTJmYzNkbFRXc3Fkenl1LWxKUExaMmJKNE5WX1dBNnJrbWVWMVV1eXNiWUwyWEY2eUZYOHlESFBuTnJBeS1YUUhrVXZuOUMtLXFlTGc2dTQ2NFlDcEVETDFvUHh5SjBtaHhVT09EY0VQeE1tZ1YtZ21lQXZrOGhZSjRNVNIB2gFBVV95cUxQNldxQURYLXl0Y0MzNU9WRHppWjB5VDNtZnN3SzhHZjRVNTFZVk5EVTFGV1ZHYVoxN3BDeFF1aVZWUW5rR2hvV29uQVI3ZGkyTjVQRm01d20tTlhmcEI3alpadk5TYTFXM2FWc1RDNVJWSUJfdEc5R2hFSnJhdXVPSXNBY1VEM0xSTGVXd194QVpiaGUtRFYzODkwSVhHU1dvTktwTnpoZkZfNGdiVkhYVWlZLVB5RU9YYmtBbFhtZ1VpM1hUcjdvUUZpRnN1SlRiZ2h1R04tUW1rQQ?oc=5  
-   **What happened:** A market-focused piece highlights **AI infrastructure exposure tied to data-center and chip demand** via stocks and related positioning.  
-   **Why it matters:** It frames the AI “compute + facilities” buildout as an investable demand stream—useful for tracking where bottlenecks may show up first (chips, then capacity, then energy).  
-   **What to watch:** Cross-check whether pricing/power constraints intensify (or ease) and whether equity positioning aligns with real capex throughput.
+2. ### 2. Oil price falls back to pre-Iran war levels  
+   - **Source:** BBC  
+   - **Original link:** https://www.bbc.co.uk/news/articles/c0jy7d7wzv4o?at_medium=RSS&at_campaign=rss  
+   - **What happened:** The BBC reports oil prices dropping toward pre-Iran war levels as traffic through the Strait of Hormuz gradually resumes.  
+   - **Why it matters:** This is a feedback loop: reduced route disruption can lower inflation expectations and cap energy-driven stress, but it can also encourage underestimation of renewed disruptions if conflict risk spikes again.  
+   - **What to watch:** Shipping throughput indicators and whether the price drop holds despite new kinetic events (signals of “normalisation” vs “false comfort”).
 
-### 2. What's happening to petrol prices now oil is back to pre-Iran war levels?
-**Source:** BBC
-   **Original link:** https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss  
-   **What happened:** BBC reports **petrol prices** dynamics as oil moves back toward **pre–Iran war levels**, discussing how the conflict disrupted production and transportation.  
-   **Why it matters:** Even as crude eases, retail fuel depends on **lagged pass-through** and distribution/logistics—an institutional bottleneck that can delay inflation relief.  
-   **What to watch:** The pace of **energy-cost transmission** from wholesale crude to consumer prices, and whether transport/logistics normalizes fully.
+3. ### 3. What's happening to petrol prices now oil is back to pre-Iran war levels?  
+   - **Source:** BBC  
+   - **Original link:** https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss  
+   - **What happened:** The BBC examines why petrol prices may not move in lockstep with crude returning to earlier levels, citing that earlier conflict-related disruptions pushed up fuel costs.  
+   - **Why it matters:** It highlights a common bottleneck: downstream retail prices often reflect refining margins, distribution contracts, and local pass-through timing—so “oil down” may not quickly translate to “pump down.”  
+   - **What to watch:** Evidence of retail pass-through timing and any renewed logistical disruptions that could delay relief.
 
-### 3. Oil price falls back to pre-Iran war levels
-**Source:** BBC
-   **Original link:** https://www.bbc.co.uk/news/articles/c0jy7d7wzv4o?at_medium=RSS&at_campaign=rss  
-   **What happened:** BBC states oil prices fell back as **traffic through the Strait of Hormuz resumes** gradually.  
-   **Why it matters:** This is a mechanism story: when a key chokepoint’s risk premium drops, it can quickly alter inflation expectations and corporate cost forecasts—creating a feedback loop into demand.  
-   **What to watch:** Any renewed disruptions around Hormuz that could reintroduce volatility faster than policy can react.
+4. ### 4. Supreme Court Weighs Trump’s IEEPA Tariffs- What This Could Mean for Global Trade  
+   - **Source:** The National Law Review  
+   - **Original link:** https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnFpX1l1MUVQdzJucGpGT0x3ZGlfcEN6dU53aWpOc2VIbUNlaDNUbFppUGh5TnU1a2VXYzdaOXhhcmxBNzlhMWdXNVBoSVppN2RMSnA5T2JrYkFlY0FPcDVhYlhaMlNOOHA4QV95cE9PbWhzc1Yta3NvUmtCWFJ6SDhKdWdwM2xOZUJON28tVmdlazZsSF9sTFNlYzZfUVU4RFE2SDNB0gGrAUFVX3lxTE5pOGZxYlRNVXdRVXcwbGNxMkdMZjRBSWNUQkJMcWQzSnhkM1BkaDhIZlVLWVZaT21FSjUteG5ISk1MaEZ3QlQ4ZFF3VTZTTDBYLUU0N3VoTWs0Nm5ETXJQUkZtOV9nVnIxeWxMR3RhOWx3Vlk3YTlxXzBBenBQQXFtbF9ST1lTc19iUHl2UW83Q1pOaTNRRGF0aVl6blY4bXdpWWZUczZRN1JpUQ?oc=5  
+   - **What happened:** The article frames the Supreme Court’s consideration of Trump-era IEEPA tariffs and the implications for global trade.  
+   - **Why it matters:** Judicial outcomes can shift the enforceability and predictability of tariff authority—impacting corporate planning, contract pricing, and cross-border compliance strategies.  
+   - **What to watch:** Scope of the Court’s reasoning (authority limits vs deference) and any immediate ripple into trade-policy implementation.
 
-### 4. SF FedViews: Volatile Oil Markets Cloud the Economic Outlook - Federal Reserve Bank of San Francisco
-**Source:** Federal Reserve Bank of San Francisco
-   **Original link:** https://news.google.com/rss/articles/CBMiogFBVV95cUxPcjNjaDFlTFFhYjJIM3pFRkpVNDg2bHBMTUVsaGYxY0VfQVBVdnBZbHJJN2NGcmZYQlVETTNRcVlDREN6T2VEMFlUTUtNME9KMWtWb0pIbXNpdENHclJqMkt5UU1ybjdmeVppMUVYaEVRclZqWmpVaFVYeks4eGZKR2hDM2ZsTTIxUFU5V0hFLU13Z2RMaENXYXlsamxHaUdiWmc?oc=5  
-   **What happened:** SF FedViews argues **volatile oil markets cloud the economic outlook**.  
-   **Why it matters:** This ties energy volatility to planning and forecasting—an institutional capacity issue for monetary policy and risk management.  
-   **What to watch:** Whether easing crude stabilizes enough to reduce forecast dispersion, or whether volatility persists via other channels.
+5. ### 5. Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank  
+   - **Source:** Federal Reserve  
+   - **Original link:** https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm  
+   - **What happened:** The Fed issued enforcement actions connected to former employees of Atlantic Union Bank and Frost Bank.  
+   - **Why it matters:** Enforcement actions against individuals reinforce the regulator’s accountability mechanism—potentially affecting compliance culture, internal controls, and the cost of compliance errors across the sector.  
+   - **What to watch:** The specific conduct categories cited (as reported by the Fed) and whether similar patterns show up across other institutions’ enforcement trends.
 
-### 5. Beyond Cloud & Memory: Infrastructure ETFs to Buy Amid AI Data Center Boom - The Globe and Mail
-**Source:** The Globe and Mail
-   **Original link:** https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYWx5R1hOMDZIS3pNX3NrNVFzX3o1TlhuaTBReEczOXlXNkhRbnFBZ2tjTEJIU0Y0NnZ0b21pdUpCN0FNTml4a28yS1FjYWhhOFl3c1RwMVJiNDNNQUFfbkxLSXpHZFU1cmRBR19xOExPcE51Wm1Fbkd6NDlrYjQ2dVQ3QXlyVXA0bXV1Q2RzUGpfNTk1V2JfX2k4cC1CYk5GTEs2UnJvRkFtdmZockNzUUNUajR4YWdWSU1RRjd6V1g1WjduSXNvbnVDSFBsNjNlSldRQThkSTliaUVmZl9jWmZpMVBWMVVNb0E?oc=5  
-   **What happened:** A piece focused on **infrastructure ETFs** highlights the AI data-center boom as a rationale for exposure.  
-   **Why it matters:** It signals how capital markets are translating AI demand into portfolios—potentially affecting funding availability for grid, facilities, and supporting infrastructure.  
-   **What to watch:** Whether ETF flows and valuations reflect real progress on **capacity constraints** (power interconnects, cooling, construction lead times).
+6. ### 6. Supreme Court rules against GEO GROUP in $1 a day labor immigration detainee lawsuit in Aurora  
+   - **Source:** Google News Discovery  
+   - **Original link:** https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSUlZOGFMOFQxMTJrZ0ltYktvNGdDUi00RVNrLWFMWUFabzByWExCOVYyTmtoRDJHT0pNTFVCVFpqLXZZVHk4MWM5ZFRGa1JjVE5qVTRibWJBRFJsLXRpbWE5aXpLOHFFQ2RybTVqQS1Ja3g0bTA0YXp6X2hqQW1hUVhrUUJaMFF6Q0E3Z2ZRZDJnUTlGemItWk5GbEF0NHQtSTZ3N0hjWDNCNFQ0WjBWVXdYcTU1VGQyV0RmYnFIb0tfYXFNT081Yw?oc=5  
+   - **What happened:** A Supreme Court ruling reportedly went against GEO GROUP in a $1-a-day labor immigration detainee lawsuit in Aurora.  
+   - **Why it matters:** Outcomes in detainee labor-related litigation shape incentives for private operators and the legal risk environment for detention contracting—affecting institutional behavior and cost structures.  
+   - **What to watch:** Any indication of how courts interpret claims tied to detainee labor and contracting standards.
 
-### 6. The AI Data-Center Boom Is Sparking a Third Wave of Inflation - WSJ
-**Source:** WSJ
-   **Original link:** https://news.google.com/rss/articles/CBMimwFBVV95cUxQOFBvWWhuUXlqLThqT0hMYWhQemh2YnZ1d05OSDl0NVE4S1pOa1IzdjBBUzBMb25Gakg2V0ZXWENyU3NiUlVzQkRtOVk3NUEyV0MtVU1lSEp1QWJnTjJkbERzZ3pZN2wtc1pCSjE4b282a0hIZ1ZuaE1vMGVONlZfdDBGOGtfVjFjcmpJNjVyS3VpZldPSkR2SF9JSQ?oc=5  
-   **What happened:** WSJ reports that the **AI data-center boom** is sparking a **third wave of inflation**.  
-   **Why it matters:** The core mechanism is resource competition (labor, equipment, land, energy interconnects). If AI demand pressures inputs broadly, it can show up beyond tech-sector pricing.  
-   **What to watch:** Evidence of diffusion into wages, industrial input costs, and utility pricing—plus whether relief arrives as projects complete.
+7. ### 7. China bans foreign AI chips from state-funded data centres, sources say  
+   - **Source:** Google News Discovery  
+   - **Original link:** https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWc5XzlMaE5pRmZ3V2x3NDhrT3MzMlV4NWxsdkVlejFZTk05eGtpbVU4VnpzbFVfRkMzYVZLNjF0UjIydU1keGRsX0dVd3JraUd0V18yLXFPbjhRVjh6N0NoWHBzQ0RaWThmSFZQalk0RnJkYTV2NXJNd1k0UEI2blgwU1dtRGtRWGxiakFvY1ZFNGVXTGwwd2EtZjJaNEE3cWwwREZmYVN3RlJVN3daR3hKcw?oc=5  
+   - **What happened:** Reuters-sourced reporting says China banned foreign AI chips from state-funded data centres.  
+   - **Why it matters:** It’s a direct governance-to-infrastructure constraint: chip sourcing rules can reconfigure procurement chains, latency/capacity planning, and the pace of AI compute rollouts.  
+   - **What to watch:** Compliance timelines, carve-outs, and whether this shifts demand toward domestic supply or third-country intermediates.
 
-### 7. Navigating Uncertainty: Inflation, Labor Markets, and the Stance of Monetary Policy - Philadelphia Federal Reserve Bank
-**Source:** Philadelphia Federal Reserve Bank
-   **Original link:** https://news.google.com/rss/articles/CBMiogFBVV95cUxPSk52V3A5Y0FhS05YQ3Vlemw1Ym1ITWw4ZXdnZnlWMGI2M3VmTzRXWmhXOTBIekQ4M3daY2puWV8zNzJTLW9JRVd2aGdjeWNpYkJWbEE3em5PM3lUY0VHV1RnNDMtUTlTUzNIMkRUeXNmdVlJclZGMk5uckZiTTU5dml5YWRNOEJZUVlvTndsYmtObzdfY0JXRkxGS3NMVUtlcmc?oc=5  
-   **What happened:** A Fed piece discusses **inflation, labor markets, and monetary policy** under uncertainty.  
-   **Why it matters:** Institutional relevance: energy moves (oil volatility) and sector-specific demand (AI infrastructure) can interact with labor and services inflation, making the policy signal noisier.  
-   **What to watch:** Whether labor-market signals decouple from inflation shocks and how quickly policy assumptions adjust to energy and AI-driven input pressures.
+8. ### 8. The New AI Chip Export Policy to China: Strategically Incoherent and Unenforceable - Council on Foreign Relations  
+   - **Source:** Google News Discovery  
+   - **Original link:** https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFVQZ2Rpa284eWszN1dhNlpOVE9BZ0EtS1ZMdnh6SDl4Tm5SQWRpbE0wUVdFMWJ1VV91bWN5NC1Hem5DUHJOQTVROUxWQi15NGNfdktrSTczVmoxMlQ2cTVsVFJTX1NlaW1JeXN5UHgxaUN0SkY3RURwNXpVNXVpTVhWd24tUWZaUUljaThNMm9ZcElkemNWd2ljRlNOcFZGUGd4dlB3?oc=5  
+   - **What happened:** The Council on Foreign Relations assesses the new AI chip export policy to China as strategically incoherent and difficult to enforce.  
+   - **Why it matters:** If enforcement is weak, policy becomes more symbolic than structural—altering expectations for industry investment, routing, and the “last mile” of export compliance.  
+   - **What to watch:** Evidence of enforcement actions, patterns of circumvention, and adjustments by firms to maintain compute access.
 
-### 8. New California laws tackle AI, immigration, wildfires and more. Here's what to know about bills signed by Newsom - CBS News
-**Source:** CBS News
-   **Original link:** https://news.google.com/rss/articles/CBMimAFBVV95cUxNS056aDVoTjVZZnJVQ0xoUEd0ck1UM1JjdjNvZUVBWHFBbXozZHYxMjJVQUtSUTFhb242TTdDdmlhMXBMRXo1Zzg3cGIyYzNSeElGaDFRUHVJeFU4SDRReDRUYmktb3hsN0NfdE9ySFFtM1VDV3dvemJFYUpFLWswZC1wVUFuU3RCOHlzVmhUNkh3V0VfdHhxTNIBngFBVV95cUxOTmJqdTNlNE9HNmpBSDV1NjE3QldEWUQ0bFN6SjVCY1BHMm1KZ3hIOU9LVHdlYW5tdTBiM1R6bkdadGZpbzF6X0dOU0NZTE56dEhNaDVfLVo2ODB6SXNuWnYweExRNFh4TVFIYVRMRE9Ra2R3bGZIY1VjVjl5Nk1fd1RpV2VlVl9nN3lHcGU4eWNZRUlURUR1OUtUblpYUQ?oc=5  
-   **What happened:** CBS reports on **new California laws** covering AI alongside other areas (immigration, wildfires, etc.) signed by Newsom.  
-   **Why it matters:** Regulatory capacity at the state level can create binding constraints for AI deployment timelines and compliance operating costs—especially for institutions scaling AI systems.  
-   **What to watch:** Implementation details and enforcement posture—whether compliance becomes a first-order bottleneck or merely a cost item.
+9. ### 9. Europe's deadly heatwave breaks German record and halts public events  
+   - **Source:** BBC  
+   - **Original link:** https://www.bbc.co.uk/news/articles/cx2knzzwprgo?at_medium=RSS&at_campaign=rss  
+   - **What happened:** The BBC reports Germany recording a provisional national high of 41.3C in Saarbrücken and notes halted public events.  
+   - **Why it matters:** Heat shocks expose bottlenecks in public safety, event governance, and cooling capacity—potentially compounding labor impacts and health system demand.  
+   - **What to watch:** Public-health measures (service suspensions, cooling centers) and knock-on impacts to commuting, healthcare, and productivity.
 
-### 9. Supreme Court rules against GEO GROUP in $1 a day labor immigration detainee lawsuit in Aurora - Sentinel Colorado
-**Source:** Sentinel Colorado
-   **Original link:** https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSUlZOGFMOFQxMTJrZ0ltYktvNGdDUi00RVNrLWFMWUFabzByWExCOVYyTmtoRDJHT0pNTFVCVFpqLXZZVHk4MWM5ZFRGa1JjVE5qVTRibWJBRFJsLXRpbWE5aXpLOHFFQ2RybTVqQS1Ja3g0bTA0YXp6X2hqQW1hUVhrUUJaMFF6Q0E3Z2ZRZDJnUTlGemItWk5GbEF0NHQtSTZ3N0hjWDNCNFQ0WjBWVXdYcTU1VGQyV0RmYnFIb0tfYXFNT081Yw?oc=5  
-   **What happened:** Supreme Court ruled against GEO GROUP in a **$1 a day labor immigration detainee lawsuit** in Aurora.  
-   **Why it matters:** Court outcomes can change litigation risk, compliance incentives, and operational governance for detention-related institutions—second-order effects on costs and procedures.  
-   **What to watch:** Follow-on policy shifts by operators and regulators, and whether similar claims see different traction.
+10. ### 10. UK Schools Shut Down As Record-Breaking Heatwave Exposes Infrastructure Vulnerability  
+   - **Source:** Google News Discovery  
+   - **Original link:** https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYUplbkhMalRHZkZJOE1lazliYzZzWXFOLU5teDFhWURaekMwdE5rQ2wwdkNfbXJNbUhpN1dBM3dvaEdrenpJM1Noc09DOVBJUFRVZG54SXI0RVFlRGw2cEJablFTRmg1OFV1LXdNN0ZFc24zTlpCRDdlRU1xaHNKYzFxQTRIUFNMWHMyRkhwNEZsSmg0NVA5Z2RqNHNfUHR1ampubDZ2dFlJMzgwU1piVVp3WlZ2NzY1Q0RJ?oc=5  
+   - **What happened:** The item reports UK schools shut down due to a record-breaking heatwave, framing it as an infrastructure vulnerability.  
+   - **Why it matters:** School closures are institutional capacity shocks with second-order effects on childcare, learning loss, and working parents—especially where preparedness (cooling, building design, staffing) is uneven.  
+   - **What to watch:** Duration/rollback criteria and whether authorities adjust heat-readiness standards for facilities and staffing.
 
-### 10. I've spent 30 years in recruitment - this is how to get a job
-**Source:** BBC
-    **Original link:** https://www.bbc.co.uk/news/articles/c8r2vljglgno?at_medium=RSS&at_campaign=rss  
-    **What happened:** A BBC interview offers recruitment guidance in a tougher jobs market.  
-    **Why it matters:** While this is more general, it can still reflect labor-market friction signals—useful context when cross-reading Fed “labor vs inflation” uncertainty.  
-    **What to watch:** Shifts in hiring velocity and the sectors most impacted by AI and infrastructure-related hiring demand.
-
-### 11. Qualcomm Wants to Bring AI Data Center Power to Your Smartphone - 24/7 Wall St.
-**Source:** 24/7 Wall St.
-    **Original link:** https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjhxU0RwekhuM2ZGSE85Z1hleVMzYVdOWF9nNlJDb0tuaXF4bGUtMTZIOThMOXl5TGFtSlZEU1lvdE5KX2Jxem9YaWMwSm8yM1U1Rzl2MElLbHl2cWFTQVZKVTk5R1NUYmg0ZTE2aWhmbmNqdkdoSjlZUDlIeFFCMi1xemdBZ1owRTM4MVBlNHBPMkRURjBaLXkzcjkwY2xZa2JMaFBNREhxcUU?oc=5  
-    **What happened:** 24/7 Wall St. reports Qualcomm aims to bring **AI data-center power** concepts to **smartphones**.  
-    **Why it matters:** This could shift the distribution of AI compute demand (and power efficiency requirements), affecting where infrastructure strain is relieved vs transferred (edge vs core data centers).  
-    **What to watch:** Claims around performance-per-watt, deployment timelines, and whether handset AI meaningfully changes offload patterns to data centers.
-
----
+11. ### 11. Mother dies saving daughter in Venezuela earthquakes  
+   - **Source:** BBC  
+   - **Original link:** https://www.bbc.co.uk/news/articles/c0jydyz8z6jo?at_medium=RSS&at_campaign=rss  
+   - **What happened:** BBC reports a fatal earthquake in Venezuela with widespread casualties.  
+   - **Why it matters:** Major disasters strain local institutions (emergency response, sheltering, healthcare) and can worsen vulnerabilities already amplified by climate and infrastructure constraints.  
+   - **What to watch:** Reporting on response capacity and damage assessments that indicate where recovery bottlenecks may emerge first.
 
 ## Signals Ignored or De-emphasized
-- Political speculation framed as “Did X trade Y…” where mechanism and evidence are unclear from the provided listing.
-- General job-search advice not tightly connected to institutional shifts beyond labor-market context.
-- Any items that appear primarily investment/promo framing without additional institutional mechanism detail.
+- Lower-signal items that read primarily as background commentary without clear mechanism or institutional implication.
+- Articles that appear to be smaller audience re-posts from non-primary outlets without additional actionable detail beyond the shared headline.
 
 ## Editor's Note
-Today’s throughline: **AI infrastructure is not just a tech story—it’s an input-cost, power-supply, and governance story**. Cross-check energy normalization (oil/Hormuz) against whether AI-driven demand keeps inflation pressures sticky, and watch for regulation/compliance capacity as the binding constraint rather than headline momentum.
+This brief prioritizes institutional capacity and governance mechanisms—how judicial rulings, enforcement actions, and infrastructure stress translate into second-order effects across markets, security risk, and public life.
