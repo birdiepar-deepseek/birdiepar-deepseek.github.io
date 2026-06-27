@@ -50,21 +50,21 @@ summary: "Daily Precision Analytica briefing on institutions, markets, geopoliti
 **What to watch:** The specific conduct categories cited (as reported by the Fed) and whether similar patterns show up across other institutions’ enforcement trends.
 
 ### 6. Supreme Court rules against GEO GROUP in $1 a day labor immigration detainee lawsuit in Aurora
-**Source:** Google News Discovery
+**Source:** Sentinel Colorado
 **Original link:** https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSUlZOGFMOFQxMTJrZ0ltYktvNGdDUi00RVNrLWFMWUFabzByWExCOVYyTmtoRDJHT0pNTFVCVFpqLXZZVHk4MWM5ZFRGa1JjVE5qVTRibWJBRFJsLXRpbWE5aXpLOHFFQ2RybTVqQS1Ja3g0bTA0YXp6X2hqQW1hUVhrUUJaMFF6Q0E3Z2ZRZDJnUTlGemItWk5GbEF0NHQtSTZ3N0hjWDNCNFQ0WjBWVXdYcTU1VGQyV0RmYnFIb0tfYXFNT081Yw?oc=5
 **What happened:** A Supreme Court ruling reportedly went against GEO GROUP in a $1-a-day labor immigration detainee lawsuit in Aurora.
 **Why it matters:** Outcomes in detainee labor-related litigation shape incentives for private operators and the legal risk environment for detention contracting—affecting institutional behavior and cost structures.
 **What to watch:** Any indication of how courts interpret claims tied to detainee labor and contracting standards.
 
 ### 7. China bans foreign AI chips from state-funded data centres, sources say
-**Source:** Google News Discovery
+**Source:** Reuters
 **Original link:** https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWc5XzlMaE5pRmZ3V2x3NDhrT3MzMlV4NWxsdkVlejFZTk05eGtpbVU4VnpzbFVfRkMzYVZLNjF0UjIydU1keGRsX0dVd3JraUd0V18yLXFPbjhRVjh6N0NoWHBzQ0RaWThmSFZQalk0RnJkYTV2NXJNd1k0UEI2blgwU1dtRGtRWGxiakFvY1ZFNGVXTGwwd2EtZjJaNEE3cWwwREZmYVN3RlJVN3daR3hKcw?oc=5
 **What happened:** Reuters-sourced reporting says China banned foreign AI chips from state-funded data centres.
 **Why it matters:** It’s a direct governance-to-infrastructure constraint: chip sourcing rules can reconfigure procurement chains, latency/capacity planning, and the pace of AI compute rollouts.
 **What to watch:** Compliance timelines, carve-outs, and whether this shifts demand toward domestic supply or third-country intermediates.
 
 ### 8. The New AI Chip Export Policy to China: Strategically Incoherent and Unenforceable - Council on Foreign Relations
-**Source:** Google News Discovery
+**Source:** Council on Foreign Relations
 **Original link:** https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFVQZ2Rpa284eWszN1dhNlpOVE9BZ0EtS1ZMdnh6SDl4Tm5SQWRpbE0wUVdFMWJ1VV91bWN5NC1Hem5DUHJOQTVROUxWQi15NGNfdktrSTczVmoxMlQ2cTVsVFJTX1NlaW1JeXN5UHgxaUN0SkY3RURwNXpVNXVpTVhWd24tUWZaUUljaThNMm9ZcElkemNWd2ljRlNOcFZGUGd4dlB3?oc=5
 **What happened:** The Council on Foreign Relations assesses the new AI chip export policy to China as strategically incoherent and difficult to enforce.
 **Why it matters:** If enforcement is weak, policy becomes more symbolic than structural—altering expectations for industry investment, routing, and the “last mile” of export compliance.
@@ -78,7 +78,7 @@ summary: "Daily Precision Analytica briefing on institutions, markets, geopoliti
 **What to watch:** Public-health measures (service suspensions, cooling centers) and knock-on impacts to commuting, healthcare, and productivity.
 
 ### 10. UK Schools Shut Down As Record-Breaking Heatwave Exposes Infrastructure Vulnerability
-**Source:** Google News Discovery
+**Source:** streamlinefeed.co.ke
 **Original link:** https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYUplbkhMalRHZkZJOE1lazliYzZzWXFOLU5teDFhWURaekMwdE5rQ2wwdkNfbXJNbUhpN1dBM3dvaEdrenpJM1Noc09DOVBJUFRVZG54SXI0RVFlRGw2cEJablFTRmg1OFV1LXdNN0ZFc24zTlpCRDdlRU1xaHNKYzFxQTRIUFNMWHMyRkhwNEZsSmg0NVA5Z2RqNHNfUHR1ampubDZ2dFlJMzgwU1piVVp3WlZ2NzY1Q0RJ?oc=5
 **What happened:** The item reports UK schools shut down due to a record-breaking heatwave, framing it as an infrastructure vulnerability.
 **Why it matters:** School closures are institutional capacity shocks with second-order effects on childcare, learning loss, and working parents—especially where preparedness (cooling, building design, staffing) is uneven.
