@@ -17,10 +17,14 @@
 }
 
 html {
+  min-height: 100%;
   scroll-behavior: smooth;
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   background: var(--paper);
   color: var(--ink);
@@ -30,6 +34,10 @@ body {
 
 a {
   color: inherit;
+}
+
+main {
+  flex: 1;
 }
 
 .site-header {
@@ -60,7 +68,8 @@ nav {
   flex-wrap: wrap;
   gap: 16px;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.96rem;
+  font-weight: 500;
 }
 
 nav a {
@@ -74,10 +83,10 @@ nav a:hover {
 .hero {
   position: relative;
   overflow: hidden;
-  min-height: min(760px, calc(100vh - 68px));
+  min-height: min(700px, calc(100vh - 68px));
   display: grid;
   align-items: center;
-  padding: clamp(48px, 9vw, 104px) clamp(20px, 5vw, 64px);
+  padding: clamp(44px, 8vw, 88px) clamp(20px, 5vw, 64px);
   background:
     linear-gradient(135deg, rgba(247, 249, 248, 0.98), rgba(232, 238, 236, 0.88)),
     radial-gradient(circle at 18% 24%, rgba(31, 122, 104, 0.1), transparent 28%),
@@ -228,8 +237,9 @@ article {
 }
 
 h3 {
-  margin: 0 0 14px;
+  margin: 0 0 12px;
   font-size: 1.2rem;
+  line-height: 1.25;
 }
 
 article p,
@@ -318,7 +328,7 @@ article p,
 .pathway-grid article,
 .working-paper-card {
   display: grid;
-  gap: 18px;
+  gap: 16px;
   align-content: start;
 }
 
@@ -366,7 +376,7 @@ article p,
   min-height: auto;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 20px;
+  gap: 18px;
   align-items: center;
   box-shadow: none;
 }
@@ -374,7 +384,7 @@ article p,
 .research-note-card div,
 .working-paper-card div {
   display: grid;
-  gap: 10px;
+  gap: 9px;
 }
 
 .note-type {
@@ -589,6 +599,23 @@ footer a {
   padding: 0 0.25em;
 }
 
+
+@media (max-width: 640px) {
+  .contact {
+    padding: 2rem 1.25rem;
+  }
+
+  .contact h2 {
+    font-size: clamp(1.5rem, 7vw, 2.25rem);
+    line-height: 1.15;
+  }
+
+  .contact a[href^="mailto:"] {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+
 @media (max-width: 780px) {
   .site-header,
   footer {
@@ -598,6 +625,10 @@ footer a {
 
   .hero {
     min-height: auto;
+  }
+
+  .hero::after {
+    display: none;
   }
 
   .grid,
