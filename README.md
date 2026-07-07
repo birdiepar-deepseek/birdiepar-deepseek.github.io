@@ -2,6 +2,19 @@
 
 Simple static website intended for GitHub Pages.
 
+## Codex Workflow
+
+Windows is the user-interface and file-exchange layer only. Active website work should happen on the Debian LXC, with WSL used as the local control shell:
+
+```text
+Windows Codex UI
+  -> WSL Debian control shell
+    -> ssh ai-debian
+      -> work directly in /root/work/precision-analytica-site
+```
+
+For site changes, copy task memos into the LXC when useful, inspect and edit files in `/root/work/precision-analytica-site`, run validation there, then commit and push from the LXC repo. Do not treat Windows task folders as the source of truth for this site.
+
 ## Files
 
 - `index.html`: home page
