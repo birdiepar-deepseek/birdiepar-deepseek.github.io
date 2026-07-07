@@ -345,6 +345,16 @@ article p,
   margin-top: 26px;
 }
 
+.research-note-section {
+  margin-top: clamp(44px, 7vw, 76px);
+}
+
+.research-note-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 26px;
+}
+
 .working-paper-card {
   min-height: auto;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -352,9 +362,26 @@ article p,
   box-shadow: none;
 }
 
+.research-note-card {
+  min-height: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 20px;
+  align-items: center;
+  box-shadow: none;
+}
+
+.research-note-card div,
 .working-paper-card div {
   display: grid;
   gap: 10px;
+}
+
+.note-type {
+  margin: 0;
+  color: var(--accent-dark);
+  font-size: 0.9rem;
+  font-weight: 800;
 }
 
 .text-link {
@@ -578,6 +605,7 @@ footer a {
   .pathway-grid,
   .split,
   .paper-list article,
+  .research-note-card,
   .working-paper-card {
     grid-template-columns: 1fr;
   }
