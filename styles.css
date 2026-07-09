@@ -311,15 +311,6 @@ article p,
 }
 
 
-.paper-link.secondary-link {
-  background: transparent;
-  color: var(--muted);
-  font-weight: 700;
-}
-
-.paper-link.secondary-link:hover {
-  color: var(--accent-dark);
-}
 
 .paper-actions {
   display: flex;
