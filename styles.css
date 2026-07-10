@@ -596,11 +596,6 @@ footer a {
   color: inherit;
 }
 
-.footer-separator {
-  color: var(--line);
-  padding: 0 0.25em;
-}
-
 
 @media (max-width: 640px) {
   .contact {
