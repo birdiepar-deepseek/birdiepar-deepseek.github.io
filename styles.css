@@ -585,15 +585,20 @@ article p,
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 18px;
+  justify-content: center;
   padding: 24px clamp(20px, 5vw, 64px) 44px;
   color: var(--muted);
   font-size: 0.92rem;
+  white-space: nowrap;
 }
 
 footer a {
   color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 
@@ -614,10 +619,14 @@ footer a {
 }
 
 @media (max-width: 780px) {
-  .site-header,
-  footer {
+  .site-header {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  footer {
+    justify-content: center;
+    font-size: 0.82rem;
   }
 
   .hero {
