@@ -291,6 +291,11 @@ article p,
   font-size: 0.92rem;
 }
 
+.working-paper-card .topic-tags {
+  color: inherit;
+  font-size: inherit;
+}
+
 .paper-link {
   display: inline-flex;
   min-height: 42px;
@@ -308,6 +313,10 @@ article p,
 .paper-link:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.note-body .paper-link {
+  margin-top: 0.5rem;
 }
 
 
