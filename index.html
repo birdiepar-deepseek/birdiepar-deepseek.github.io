@@ -3,113 +3,226 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Precision Analytica studies mechanisms behind complex social, technological, institutional, and economic change.">
+    <meta name="description" content="Precision Analytica studies how technological change disrupts the alignment among economic activity, governance, institutions, and social values.">
     <link rel="canonical" href="https://www.precisionanalytica.com/">
     <title>Precision Analytica</title>
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=4">
   </head>
-  <body>
+  <body class="home-v03">
     <header class="site-header">
       <a class="brand" href="/">
         <span>Precision Analytica</span>
       </a>
       <nav aria-label="Main navigation">
-        <a href="/research/">Research</a>
+        <a href="/research/">Research Program</a>
         <a href="/working-papers/">Working Papers</a>
         <a href="/research-notes/">Research Notes</a>
         <a href="/about/">About</a>
       </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <div class="hero-content">
-          <div class="hero-copy">
-            <p class="eyebrow">Mechanism-based research</p>
-            <h1>Precision Thinking for a Complex World</h1>
-            <p class="hero-line">Mechanism-based research on AI, institutions, political economy, technological change, and human adaptation.</p>
-            <p class="lede">
-              Precision Analytica studies the mechanisms behind complex social, technological,
-              institutional, and economic change. The work emphasizes explanation over noise,
-              structure over slogans, and disciplined inquiry into how systems evolve.
-            </p>
-            <div class="hero-actions">
-              <a class="button primary" href="/research/">Explore Research</a>
-              <a class="button secondary" href="/working-papers/">Working Papers</a>
-              <a class="button secondary" href="/research-notes/">Research Notes</a>
-            </div>
-          </div>
-        </div>
-      </section>
+<main id="main-content" class="home-program">
+  <section class="program-hero" aria-labelledby="program-title">
+    <picture class="program-hero__media">
+      <source
+        type="image/webp"
+        media="(max-width: 700px)"
+        srcset="/assets/images/multilayered-adaptation-rings-960.webp"
+      >
+      <source
+        type="image/webp"
+        srcset="/assets/images/multilayered-adaptation-rings-1672.webp"
+      >
+      <img
+        src="/assets/images/multilayered-adaptation-rings.png"
+        width="1672"
+        height="941"
+        alt="Three luminous nested circles in space meet at a dark operating point, representing the economic core inside governance, institutions, and values."
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+      >
+    </picture>
 
-      <section class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Research Architecture</p>
-          <h2>Research Architecture</h2>
-          <p>The research program is organized around mechanisms that connect AI, institutions, social structure, technological change, markets, and human adaptation.</p>
-        </div>
-        <div class="theme-grid">
-          <article>
-            <h3>AI, Institutions, and Human Formation</h3>
-            <p>How AI changes capability formation, delegation, judgment, education, work, family, and the institutional processes that reproduce human skills.</p>
-          </article>
-          <article>
-            <h3>Social Structure and Political Economy</h3>
-            <p>How middle-class stability, dignity, institutional lag, visibility systems, and polarization reshape modern political and social order.</p>
-          </article>
-          <article>
-            <h3>Technology, Growth, and Civilization</h3>
-            <p>How technological waves, institutional operating systems, capital, education, and social transmission shape long-run growth and civilizational adaptation.</p>
-          </article>
-          <article>
-            <h3>Markets, Risk, and Diffusion</h3>
-            <p>How markets absorb shocks, how investor capacity shapes adjustment, and how innovations diffuse through institutions and carriers.</p>
-          </article>
-        </div>
-      </section>
+    <div class="program-hero__shade" aria-hidden="true"></div>
 
-      <section class="section pathways">
-        <div class="section-heading">
-          <p class="eyebrow">Explore the Work</p>
-          <h2>Explore the Work</h2>
-        </div>
-        <div class="pathway-grid">
-          <article>
-            <h3>Working Papers</h3>
-            <p>Formal manuscripts and preprints on AI, institutions, political economy, markets, technology diffusion, and social change.</p>
-            <a class="paper-link" href="/working-papers/">Browse working papers</a>
-          </article>
-          <article>
-            <h3>Research Notes</h3>
-            <p>Shorter essays and conceptual memos that develop the broader Precision Analytica research program.</p>
-            <a class="paper-link" href="/research-notes/">Browse research notes</a>
-          </article>
-          <article>
-            <h3>Research Program</h3>
-            <p>An overview of the central questions, frameworks, and mechanisms connecting the work.</p>
-            <a class="paper-link" href="/research/">Explore research</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="section about">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>About Precision Analytica</h2>
-        </div>
-        <div class="copy wide">
-          <p>Precision Analytica is an independent research platform focused on mechanism-based analysis of complex systems. The work combines economics, political economy, institutional analysis, systems thinking, and applied modeling to explain how patterns emerge and how they evolve.</p>
-        </div>
-      </section>
-
-      <section class="section contact">
-        <p class="eyebrow">Contact</p>
-        <h2>Research inquiries and correspondence</h2>
-        <p>
-          <a href="mailto:info@precisionanalytica.com">info@precisionanalytica.com</a>
+    <div class="home-shell program-hero__inner">
+      <div class="program-hero__copy">
+        <p class="home-kicker">Research Program</p>
+        <h1 id="program-title">Multilayered<br>Adaptation</h1>
+        <p class="program-hero__claim">Technology changes the economic core first.</p>
+        <p class="program-hero__lede">
+          Economic activity unfolds within layers of governance, institutions, and social values.
+          When technology changes the core, those surrounding layers adjust at different speeds.
+          New capabilities then operate inside inherited rules, measurements, and expectations.
         </p>
-      </section>
-    </main>
+        <div class="program-hero__actions" aria-label="Homepage research actions">
+          <a class="home-button home-button--light" href="#framework">Explore the framework</a>
+          <a class="home-button home-button--outline" href="#current-research">View current research</a>
+        </div>
+      </div>
+
+      <aside class="program-hero__legend" aria-label="Explanation of the visual">
+        <p class="program-hero__legend-title">The visual</p>
+        <p>
+          The dot marks the current operating point. The circles represent governance and policy,
+          the institutional environment, and values and norms.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="framework" class="home-program-section home-framework" aria-labelledby="framework-title">
+    <div class="home-shell">
+      <div class="home-section-intro">
+        <div>
+          <p class="home-kicker">The Nested Economic Architecture</p>
+          <h2 id="framework-title">One active core inside three slower-moving environments.</h2>
+        </div>
+        <p class="home-section-summary">
+          The framework separates ongoing economic activity from the governance, institutional,
+          and normative environments around it. The layers are related, but they do not move on
+          the same clock.
+        </p>
+      </div>
+
+      <div class="architecture-grid">
+        <article class="architecture-card architecture-card--core">
+          <p class="architecture-card__number">01</p>
+          <h3>Economic Core</h3>
+          <p>
+            Ongoing activity, resource allocation, technology use, current performance, and the
+            formation or depletion of productive capability.
+          </p>
+        </article>
+
+        <article class="architecture-card architecture-card--governance">
+          <p class="architecture-card__number">02</p>
+          <h3>Governance and Policy</h3>
+          <p>
+            Contracts, organizational arrangements, market design, incentives, safeguards,
+            reporting standards, and operating rules.
+          </p>
+        </article>
+
+        <article class="architecture-card architecture-card--institutions">
+          <p class="architecture-card__number">03</p>
+          <h3>Institutional Environment</h3>
+          <p>
+            The durable allocation of authority, rights, obligations, responsibility, law, and
+            enforcement within which governance operates.
+          </p>
+        </article>
+
+        <article class="architecture-card architecture-card--values">
+          <p class="architecture-card__number">04</p>
+          <h3>Values and Norms</h3>
+          <p>
+            The deeper social commitments that define legitimacy, acceptable tradeoffs, social
+            purpose, and what is worth preserving.
+          </p>
+        </article>
+      </div>
+
+      <div class="method-strip" aria-label="Forthcoming method and framework essay">
+        <p class="method-strip__label">Method &amp; Framework</p>
+        <p>
+          How the program models layered change, inherited constraints, and departures from
+          established institutional frameworks. <span>[Forthcoming]</span>
+        </p>
+      </div>
+
+      <div class="mismatch-banner">
+        <blockquote>
+          The research question is not simply whether adaptation occurs, but what happens during
+          the mismatch interval—and when alignment never returns.
+        </blockquote>
+        <p>
+          Governance and policy usually move first. Institutions move later. Values and norms
+          change slowest.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="current-research" class="home-program-section home-research" aria-labelledby="research-title">
+    <div class="home-shell">
+      <div class="home-section-intro home-section-intro--research">
+        <div>
+          <p class="home-kicker">A Coherent Research Program</p>
+          <h2 id="research-title">Research organized around the mismatch interval.</h2>
+        </div>
+        <p class="home-section-summary">
+          Papers and essays are grouped by the part of the architecture they illuminate, while
+          each collection keeps a simple chronological record.
+        </p>
+      </div>
+
+      <article class="featured-program-paper">
+        <div class="featured-program-paper__body">
+          <p class="home-kicker">From the Research Program</p>
+          <h3>Masked Erosion</h3>
+          <p>
+            A formal theory of why strong visible performance can cease to reveal the human,
+            organizational, or material capacity needed to sustain it. A later research note will
+            translate the mechanism into the public language of the broader program.
+          </p>
+        </div>
+        <div class="featured-program-paper__meta">
+          <p class="featured-program-paper__type">Formal Working Paper</p>
+          <p>July 2026</p>
+          <ul aria-label="Working-paper fields">
+            <li>Information Economics</li>
+            <li>Technological Change</li>
+            <li>Institutional Analysis</li>
+          </ul>
+          <a href="/working-papers/masked-erosion.html">Read the abstract</a>
+        </div>
+      </article>
+
+      <div class="collection-grid" aria-label="Research collections">
+        <a class="collection-card" href="/research-notes/">
+          <h3>Capability and Reproduction</h3>
+          <p>Carrier capacity, hidden erosion, learning, maintenance, and the transmission of practical knowledge.</p>
+        </a>
+        <a class="collection-card" href="/research-notes/">
+          <h3>AI and Knowledge Systems</h3>
+          <p>Knowledge convergence, research frontiers, human judgment, symbolic work, and automation.</p>
+        </a>
+        <a class="collection-card" href="/research-notes/">
+          <h3>Institutions and Adaptation</h3>
+          <p>Policy lag, legal response, social coordination, political equilibrium, and institutional reconstruction.</p>
+        </a>
+        <a class="collection-card" href="/research-notes/">
+          <h3>Technology and Social Structure</h3>
+          <p>Technological vintage, inequality, center hollowing, labor transitions, and long-run organizational change.</p>
+        </a>
+      </div>
+
+      <div class="selected-notes">
+        <div class="selected-notes__heading">
+          <h3>Selected research notes</h3>
+          <a href="/research-notes/">View all research notes</a>
+        </div>
+        <div class="selected-notes__grid">
+          <a class="selected-note-card" href="/research-notes/the-frontier-after-ai.html">
+            <span>AI and Knowledge Systems</span>
+            <strong>The Frontier After AI</strong>
+          </a>
+          <a class="selected-note-card" href="/research-notes/what-the-keyboard-was-hiding.html">
+            <span>Capability and Reproduction</span>
+            <strong>What the Keyboard Was Hiding</strong>
+          </a>
+          <a class="selected-note-card" href="/research-notes/the-dislocated-middle.html">
+            <span>Institutions and Adaptation</span>
+            <strong>The Dislocated Middle</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
 
     <footer>
       <span>&copy; 2026 Precision Analytica &middot; <a href="mailto:info@precisionanalytica.com">info@precisionanalytica.com</a></span>
