@@ -2114,3 +2114,22 @@ body:not(.home-v03) footer span {
     grid-template-columns: 1fr;
   }
 }
+
+.home-v03 .method-strip a,
+.research-note-card h3 a,
+.footnote-backref {
+  color: var(--accent-dark);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.home-v03 .method-strip a:hover,
+.home-v03 .method-strip a:focus-visible,
+.research-note-card h3 a:hover,
+.research-note-card h3 a:focus-visible,
+.footnote-backref:hover,
+.footnote-backref:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
