@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Precision Analytica’s 2026 House forecast projects 221 Democratic seats and shows how redistricting changes the national vote needed for control.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="author" content="Arthur Palmer">
+    <meta name="article:section" content="Research Notes">
+    <meta name="article:tag" content="2026 House elections">
+    <meta name="article:tag" content="Electoral Conversion Model">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Precision Analytica">
+    <meta property="og:title" content="2026 House Forecast: A Blue Tide on a Redrawn Map">
+    <meta property="og:description" content="Precision Analytica’s district-level forecast projects a narrow Democratic majority and shows how redistricting changes the national vote needed for control.">
+    <meta property="og:url" content="https://www.precisionanalytica.com/research-notes/2026-house-election-forecast.html">
+    <meta property="article:author" content="Arthur Palmer">
+    <meta property="article:published_time" content="2026-07-26">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://www.precisionanalytica.com/research-notes/2026-house-election-forecast.html">
+    <title>2026 House Forecast: Electoral Conversion Model | Precision Analytica</title>
+    <link rel="stylesheet" href="../styles.css?v=6">
+    <script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "A Blue Tide on a Redrawn Map",
+      "alternativeHeadline": "Introducing Precision Analytica’s Electoral Conversion Model: a district-level forecast based on national vote transmission, incumbency, and remapping",
+      "description": "Precision Analytica’s 2026 House forecast projects 221 Democratic seats and shows how redistricting changes the national vote needed for control.",
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-07-26",
+      "author": {
+            "@type": "Person",
+            "name": "Arthur Palmer",
+            "url": "https://www.precisionanalytica.com/about/"
+      },
+      "publisher": {
+            "@type": "Organization",
+            "name": "Precision Analytica",
+            "url": "https://www.precisionanalytica.com/"
+      },
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.precisionanalytica.com/research-notes/2026-house-election-forecast.html"
+      },
+      "articleSection": "Research Notes",
+      "isAccessibleForFree": true,
+      "keywords": [
+            "2026 House election forecast",
+            "2026 midterm elections",
+            "Electoral Conversion Model",
+            "congressional redistricting",
+            "House majority",
+            "district-level forecasting"
+      ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+            {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.precisionanalytica.com/"
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Research Notes",
+                  "item": "https://www.precisionanalytica.com/research-notes/"
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "A Blue Tide on a Redrawn Map",
+                  "item": "https://www.precisionanalytica.com/research-notes/2026-house-election-forecast.html"
+            }
+      ]
+}
+    </script>
+  </head>
+  <body class="research-note-page">
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span>Precision Analytica</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="/research/">Research</a>
+        <a href="/working-papers/">Working Papers</a>
+        <a href="/research-notes/">Research Notes</a>
+        <a href="/about/">About</a>
+      </nav>
+    </header>
+    <main>
+      <article class="note marquee-note">
+        <header class="note-header">
+          <a class="back-link" href="/research-notes/">Back to Research Notes</a>
+          <p class="eyebrow">Research Note &middot; 2026 House Forecast</p>
+          <h1>A Blue Tide on a Redrawn Map</h1>
+          <p class="note-subtitle">Introducing Precision Analytica’s Electoral Conversion Model: a district-level forecast based on national vote transmission, incumbency, and remapping</p>
+          <dl class="note-meta">
+            <div>
+              <dt>Date</dt>
+              <dd>July 26, 2026</dd>
+            </div>
+            <div>
+              <dt>Author</dt>
+              <dd>Arthur Palmer</dd>
+            </div>
+          </dl>
+        </header>
+        <div class="note-body">
+          <p class="note-summary"><strong>Summary:</strong> This 2026 House election forecast introduces the Precision Analytica Electoral Conversion Model (ECM) for the 2026 elections to the U.S. House of Representatives (the House). The Conversion Model estimates how national political movement reaches individual districts, separates an incumbent’s personal electoral strength from the underlying partisanship of the seat, and reconstructs electoral baselines when district lines change. Under a scenario in which Democrats win the national two-party House vote by about 5½ percentage points, the model projects a narrow majority of about 221 seats, with a reasonable range of 220 to 223. Under the enacted maps, Democrats need a national lead of roughly 3½ points to reach the 218 seats required for control. Under the previous district configuration, a nearly tied national vote could have been enough.<sup id="fnref1"><a href="#fn1">[1]</a></sup></p>
+          <nav class="note-toc" aria-label="On this page">
+            <p>On this page</p>
+            <ul>
+              <li><a href="#why-a-district-level-model">Why a district-level model</a></li>
+              <li><a href="#national-vote-transmission">Transmission, incumbency, and remapping</a></li>
+              <li><a href="#arizona-6-example">Arizona’s 6th District example</a></li>
+              <li><a href="#2026-house-forecast">The 2026 House forecast</a></li>
+              <li><a href="#redistricting-and-house-control">Redistricting and the threshold for control</a></li>
+              <li><a href="#uncertainty">Where uncertainty remains</a></li>
+              <li><a href="#how-the-model-will-be-judged">How the model will be judged</a></li>
+            </ul>
+          </nav>
+          <p>Forecasting control of the chamber requires more than applying one national swing to 435 districts.</p>
+          <p>Districts do not move in lockstep with the country. Incumbents can run ahead of the underlying politics of their seats. Redistricting can place the same member before a different electorate. Open seats behave differently from incumbent-held seats, and unresolved primaries can make a precise point estimate less reliable than an honest range.</p>
+          <p>The Conversion Model is designed around these problems. It follows 44 competitive or structurally important districts and connects them to a common national environment. The remaining seats are held at established party ownership, subject to explicit controls and an outer-ring screen.</p>
+          <p>For each reviewed district, the model asks three questions. How much of a national political shift is likely to reach the seat? How much of the previous congressional result belonged to the incumbent rather than to the district? And when the lines have changed, what electoral baseline should be used on the new map?</p>
+          <p>Those questions produce a seat forecast, but the forecast is not the only output. The model also creates a seat ladder showing the national vote environment at which each successive district changes hands. The ladder separates two questions that are often blurred together: how many seats a party might win in one national scenario, and how much national support it needs to gain control.</p>
+          <p>The central result is a narrow Democratic majority in a strong Democratic year. The larger structural finding is that redistricting moved the national position required for control from roughly even to a Democratic lead of about 3½ points under the central transmission assumptions.</p>
+          <h2 id="why-a-district-level-model">Why a district-level model is necessary</h2>
+          <p>Most public discussion of congressional elections begins with one of four indicators: the national generic ballot, the presidential vote in each district, the previous congressional result, or professional race ratings. Each contains useful information. None answers the full forecasting problem.</p>
+          <p>A national ballot measure tells us the broad political direction, but not how strongly that movement will reach a particular district. Presidential results describe the partisan foundation of a seat, but they do not capture the personal strength of an incumbent. The previous congressional margin includes that personal strength, but it becomes difficult to interpret when district lines change. Race ratings incorporate expert judgment, but they do not always reveal the numerical path from a national environment to a seat total.</p>
+          <p>The Conversion Model brings these elements into one traceable structure. It is mechanical where the evidence supports a formula, judgmental where local information is necessary, and explicit about the boundary between the two.</p>
+          <p>That separation matters. A model can produce numbers to two decimal places while concealing where judgment entered. The stronger standard is whether each important assumption can be identified, changed, and tested.</p>
+          <h2 id="national-vote-transmission">The Conversion Model has three core components</h2>
+          <h3 id="national-vote-transmission">National vote transmission</h3>
+          <p>The first component estimates how much of the national political movement reaches each district.</p>
+          <p>A uniform-swing model assumes that a seven-point national movement produces a seven-point movement everywhere. Congressional districts rarely behave that way. Some respond strongly to national conditions. Others are anchored by local partisanship, regional political culture, demographic composition, candidate quality, or an incumbent’s established coalition.</p>
+          <p>The Conversion Model therefore assigns each reviewed district its own transmission value. A transmission value of 0.45 means that a district receives about 45 percent of the national movement from the 2024 reference point. A lower value means less of the national tide reaches the district.</p>
+          <p>The transmission values were set through district-by-district review and compared with a historical benchmark. The documented center from the 2016-to-2018 movement of the all-contested seat frontier is about 0.47. The average value on the current 44-district board is lower, at about 0.40. That difference matters because lower transmission means a larger national swing is required to erase the same district deficit.</p>
+          <p>The current board therefore embodies a more resistant set of competitive districts than the historical benchmark. This may reflect the composition of the selected board, the anchoring effect of incumbents, or a change in how competitive districts respond to national conditions. The ECM dashboard will allow readers to change the transmission scale and see how the seat ladder responds.<sup id="fnref2"><a href="#fn2">[2]</a></sup></p>
+          <h3 id="incumbency">Incumbency</h3>
+          <p>The second component separates the political character of a district from the personal electoral performance of its incumbent.</p>
+          <p>Suppose an incumbent runs several points ahead of the presidential candidate from the same party. Some of that difference may reflect personal reputation, constituency service, fundraising, campaign skill, or a weak opponent. It should not be treated as permanent district partisanship. It should not be discarded when the incumbent is running again.</p>
+          <p>The Conversion Model measures incumbent performance as the previous congressional result relative to the presidential result in the same geography. When the incumbent returns on remapped lines, an adjustable share of that personal advantage can be carried into the new projection. When the seat is open, the incumbent component is removed.</p>
+          <p>The central model applies the full measured carry. The ECM dashboard will allow the carry factor to be reduced. This is an assumption rather than an observed law, and publishing it as an adjustable control is preferable to embedding it out of sight.</p>
+          <p>The sensitivity results show that incumbent carry affects the central seat estimate more than it affects the main redistricting finding. Across a wide range of carry assumptions, the model moves between 220 and 221 Democratic seats, while the national position required for a majority changes little. At one intermediate setting, a different California district becomes the 218th seat, which changes the exact ratio comparison but not the broader map effect.</p>
+          <h3 id="remapping">Remapping</h3>
+          <p>The third component reconstructs electoral baselines when district lines change.</p>
+          <p>An old congressional result cannot be copied onto new boundaries. The voters are not the same, and the old margin may combine district partisanship with an incumbent advantage earned in a different geography.</p>
+          <p>For a remapped open seat, the Conversion Model uses presidential performance on the new district lines as the starting point. For a remapped seat with a returning incumbent, it begins with presidential performance on the new lines and then adds the applicable share of the incumbent’s previous congressional overperformance.</p>
+          <p>For an unchanged district, the model uses the previous congressional result when the incumbent returns and the presidential result when the seat is open.</p>
+          <p>This four-case structure avoids two common errors. It does not treat an old congressional margin as though it survived a new map unchanged. It also does not erase a returning incumbent’s demonstrated personal strength because the boundaries moved.</p>
+          <p>The remapping treatment matters most in states that changed the competitive landscape after 2024. Republican gains or strengthened positions are concentrated in Florida, Ohio, North Carolina, and Texas. California creates several Democratic offsets, but those seats enter the Democratic coalition only in a stronger national environment.<sup id="fnref3"><a href="#fn3">[3]</a></sup></p>
+          <h3 id="arizona-6-example">How the pieces fit together: Arizona’s 6th District</h3>
+          <p>Arizona’s 6th District provides a compact example of the model.</p>
+          <p>The Republican candidate won the district by 2.51 percentage points in 2024. Because the lines are unchanged and the incumbent is returning, the model uses that congressional margin directly. The result already contains the incumbent’s personal electoral strength, so adding a separate incumbency term would count it twice.</p>
+          <p>The central national scenario moves 7.65 points toward Democrats from the 2024 reference result. Arizona’s 6th has a transmission value of 0.45, so it receives about 3.44 points of that movement. The projection is therefore:</p>
+          <p class="note-summary">Republican lead of 2.51 points, less 3.44 points of Democratic movement, equals a Democratic lead of about 0.93 points.</p>
+          <nav class="note-toc" aria-label="On this page">
+            <p>On this page</p>
+            <ul>
+              <li><a href="#why-a-district-level-model">Why a district-level model</a></li>
+              <li><a href="#national-vote-transmission">Transmission, incumbency, and remapping</a></li>
+              <li><a href="#arizona-6-example">Arizona’s 6th District example</a></li>
+              <li><a href="#2026-house-forecast">The 2026 House forecast</a></li>
+              <li><a href="#redistricting-and-house-control">Redistricting and the threshold for control</a></li>
+              <li><a href="#uncertainty">Where uncertainty remains</a></li>
+              <li><a href="#how-the-model-will-be-judged">How the model will be judged</a></li>
+            </ul>
+          </nav>
+          <p>The same inputs place the district on the seat ladder. Erasing the original 2.51-point Republican lead at a transmission rate of 0.45 requires 5.58 points of national movement. From the 2024 starting point, that corresponds to a Democratic national lead of about 3.43 points.</p>
+          <p>Arizona’s 6th is therefore the decisive 218th Democratic seat under the enacted maps. The example shows how the model selects the baseline, avoids double-counting incumbency, applies national transmission, and converts the district result into a chamber-control threshold.<sup id="fnref4"><a href="#fn4">[4]</a></sup></p>
+          <h2 id="2026-house-forecast">The 2026 House forecast</h2>
+          <p>The model’s central scenario assumes that Democrats win the national two-party House vote by about 5½ percentage points.</p>
+          <p>This is a scenario input, not a separate forecast of the national vote. The Conversion Model answers a conditional question: if the national vote finishes there, what district outcomes follow?</p>
+          <div class="note-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ECM output</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Democratic seats</th>
+                  <td><strong>221</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row">Republican seats</th>
+                  <td><strong>214</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row">Published Democratic range</th>
+                  <td><strong>220 to 223</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row">Formal unresolved races</th>
+                  <td><strong>3</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>The three formal holds are Florida’s 25th District, Michigan’s 7th District, and Wisconsin’s 3rd District. The model produces a mechanical result for each, but their primary or ballot circumstances justify preserving uncertainty in the published forecast. Different resolutions of those seats produce the 220-to-223 range.<sup id="fnref5"><a href="#fn5">[5]</a></sup></p>
+          <p>This is an important feature of the method. The Conversion Model does not force every uncertainty into one point estimate. It distinguishes between the central calculation and the political information that remains unresolved.</p>
+          <p>The same national environment would produce about 223 Democratic seats under the previous district configuration. At this strong operating point, the enacted maps cost Democrats about two seats.</p>
+          <p>A strong national tide can still overcome the map.</p>
+          <p>That conclusion describes the chamber after the national environment has become strongly Democratic. It does not tell us how much national support is required before Democrats gain control.</p>
+          <h2 id="redistricting-and-house-control">How redistricting moved the threshold for House control</h2>
+          <p>The model’s most important result comes from the seat ladder rather than the 221-seat estimate.</p>
+          <p>Democrats began from a 2.15-point national deficit in the 2024 all-contested vote. Under the enacted maps, they must reach a national lead of about 3½ points before they win 218 seats. Under the previous district configuration, a national vote close to even could have been enough for control.</p>
+          <p>Redistricting therefore moved the required Democratic national position from roughly even to a lead of about 3½ points under the board’s central transmission assumptions.</p>
+          <p>This does not mean that redistricting shifts every district by the same amount. The effect comes from the composition and order of the seats available to Democrats.</p>
+          <p>Arizona’s 6th District provides the clearest illustration. The district was not redrawn, and its modeled electoral position is identical under both map configurations. Under the previous configuration, it would have been the 221st Democratic seat. Under the enacted maps, it becomes the decisive 218th seat.</p>
+          <p class="note-pull-quote"><strong>The threshold moved even though the threshold district did not.</strong></p>
+          <p>Pennsylvania’s 7th District shows the other side of the same mechanism. Under the previous configuration, it was the seat that gave Democrats their majority in a nearly tied national vote. Under the enacted maps, it still projects Democratic in the central scenario. It ceases to be the marginal seat that determines control.</p>
+          <p>What changed was the stack beneath those districts. Several lower-cost Democratic seats were removed or made more difficult in Florida, Ohio, North Carolina, and Texas. California supplies replacement opportunities, but they arrive after the national environment has moved farther toward Democrats.</p>
+          <p>This explains why the enacted and previous maps can produce similar seat totals in a strong Democratic year while carrying different majority thresholds. By the time Democrats lead nationally by about 5½ points, most replacement seats have entered the coalition. Near an even national vote, they have not.</p>
+          <p>Measured as movement from the same 2024 starting point, the enacted maps require about 5.6 points to reach a majority, compared with about 2.1 points under the previous configuration. The enacted maps therefore require about 2.7 times as much movement. That ratio survives proportional changes in the transmission scale because rescaling enlarges or shrinks both required movements by the same factor. The difference measured in national percentage points does not have that invariance.</p>
+          <p>The movement from roughly even to a Democratic lead of about 3½ points is the central electoral finding. The 2.7 ratio is the scale-free robustness result.</p>
+          <p>For the public, the meaning is direct: Democrats can win control, but they need a clearer national victory before their votes convert into a majority.</p>
+          <h2 id="majority-fragility">A second finding: higher entry cost does not mean greater immediate fragility</h2>
+          <p>A map that makes a majority harder to win might also be expected to make it easier to lose. The seat ladder does not show that pattern in the immediate range below 218.</p>
+          <p>Under the enacted maps, the national environment must weaken by about 2½ points after Democrats first reach 218 before they fall to 216 seats. Under the previous configuration, a weakening of less than 1½ points produces the same two-seat decline.</p>
+          <p>The same relocation mechanism explains the difference. Moving the control frontier upward placed a sparser stretch of the seat ladder below the majority line, so the first seats Democrats would surrender under the enacted maps are spaced farther apart than the first seats they would have surrendered under the previous configuration.</p>
+          <p>The enacted maps raise the price of entering the majority, but they do not make the first few seats of that majority unusually easy to surrender.</p>
+          <p>This finding should not be overstated. A 218-seat majority is politically narrow under any map. Candidate failures, vacancies, turnout differences, campaign spending, scandals, and forecast error can alter the outcome. The result concerns the structure of the seat ladder, not the daily stability of a congressional caucus.</p>
+          <p>The distinction remains useful. Redistricting does not have one uniform effect. A map can raise the threshold for taking power without making power proportionately more fragile once obtained.</p>
+          <h2 id="uncertainty">Where uncertainty remains</h2>
+          <p>The Conversion Model is designed to make uncertainty visible rather than to eliminate it.</p>
+          <p>The largest uncertainty is the national environment. The 221-seat estimate is conditional on Democrats winning the national two-party House vote by about 5½ points. A weaker or stronger result changes the seat total. The ECM dashboard’s national-vote control is therefore more informative than one forecast number.</p>
+          <p>A second uncertainty concerns transmission. The board’s mean transmission value is about 0.40, below the historical benchmark of about 0.47. Lower transmission increases the national movement required to move the decisive districts. Under the board’s central values, the enacted maps require a Democratic national lead of about 3½ points, compared with a nearly tied vote under the previous configuration. If the historical transmission benchmark were used instead, the enacted-map requirement would fall to about a 2.6-point Democratic lead, while the comparator would sit at a small Republican lead close to an even vote.</p>
+          <p>This does not reverse the finding. Under either transmission benchmark, the enacted maps require a clearer Democratic national result than the previous configuration. It does mean that the precise threshold level depends on the assumed strength of district transmission.</p>
+          <p>A third uncertainty concerns incumbency. The central model carries forward the full measured incumbent advantage for remapped returning members, but that advantage may decay when the electorate changes. The adjustable carry factor shows where the assumption matters.</p>
+          <p>A fourth uncertainty concerns candidates and unresolved contests. Primaries, retirements, independent candidacies, campaign quality, fundraising, and local events can move individual races. The three formal holds are one visible expression of this uncertainty. Separate local adjustments are permitted, but they default to zero and must be documented.</p>
+          <p>A fifth uncertainty concerns baseline precision. Some district baselines depend on rounded source values pending exact vote reconstruction. A common-direction stress test on the remaining rounded baselines did not change the 221-seat central result or the enacted-map majority threshold. The test does not make the inputs exact. It shows that small rounding differences do not drive the headline conclusions.</p>
+          <p>A sixth uncertainty is board completeness. The active board is built from a screen applied to all 435 districts. A seat enters the mechanical screen if its modeled margin falls inside a predeclared competitive band at any national environment within the published scenario range. The screen is biased toward inclusion, and the numerical band and scenario range will be fixed in a dated pre-election archive.</p>
+          <p>Any discretionary addition will be identified separately before the board is frozen, with a district-specific rationale and a flag distinguishing it from mechanically screened seats. Five districts that reached the review stage but were removed remain in an audited exclusions file with the reason for each decision. An outer-ring scan of the omitted universe checks whether any excluded district could enter the seat ladder within the published range.</p>
+          <p>A district outside the board cannot become the decisive seat, so completeness is part of the model rather than a clerical detail. Board selection may also help explain why the average transmission value is below the historical benchmark. A set selected for competitiveness and incumbent anchoring may be less responsive to national movement than the broader contested-seat universe. The post-election review will test whether the lower mean reflected resistance within these districts or selection into the board.</p>
+          <p>Precision does not mean certainty. It means that assumptions, data lineage, and points of failure are visible enough to be examined.</p>
+          <h2 id="how-the-model-will-be-judged">How the Conversion Model will be judged</h2>
+          <p>A forecasting method should state in advance how it can fail.</p>
+          <p>After the 2026 election, Precision Analytica will score the frozen 44-district board using mean absolute error in the final Democratic-minus-Republican district margin. The Conversion Model will be compared with two uniform-swing benchmarks.</p>
+          <p>The first benchmark will apply a uniform national swing to the prior congressional margins without remap treatment. For the eleven remapped seats, it will carry the predecessor result forward without reconstructing the new electorate. This benchmark tests the value of the full model, including remapping.</p>
+          <p>The second benchmark will apply a uniform swing to presidential baselines on the enacted district lines. It will hold the new-map geography constant while omitting district-specific transmission and incumbent treatment. This comparison isolates the added value of transmission and incumbency. The difference between the two benchmark results will show how much of the error reduction is associated with reconstructing remapped seats rather than with the other model components.</p>
+          <p>Published race ratings will form a separate benchmark. Before Election Day, rating categories will be translated into expected-margin bands derived from the realized district margins associated with the same categories in the 2018 and 2022 elections. The conversion rule will be fixed before results are known, so the rating benchmark is not constructed after the fact.<sup id="fnref6"><a href="#fn6">[6]</a></sup></p>
+          <p>The pre-election archive will also state what counts as beating a benchmark. The primary comparison will combine the difference in mean absolute error with the share of scorable districts in which the Conversion Model has the smaller absolute error. A result will be classified as a <strong>material improvement</strong> only if the model lowers mean absolute error by at least 1.0 percentage point and performs better in at least 60 percent of scorable districts. An improvement of 0.5 to 0.99 points, or a larger average gain without the 60 percent district threshold, will be classified as <strong>directional but inconclusive</strong>. A gap smaller than 0.5 points will be classified as <strong>indistinguishable at this sample size</strong>. The same rules will be applied in reverse for material underperformance, and mixed cases will be reported as mixed rather than forced into a win-or-loss label. Secondary metrics will not be used to overturn the preregistered primary classification.</p>
+          <p>The pre-election archive will also define the scoring convention for elections that do not produce an ordinary Democratic-versus-Republican general-election margin. If California’s top-two system produces two finalists from the same party, that district will be excluded from the primary Democratic-minus-Republican margin-error statistic and reported separately. A candidate-level finalist-margin error will be shown only if a candidate-level projection was frozen before the general election. The district will remain in the party-control and seat-call evaluations.</p>
+          <p>For Alaska, the scored margin will be the final ranked-choice round between the remaining Democratic and Republican candidates. If the final pair does not contain one candidate from each major party, the same exception used for a same-party California contest will apply.<sup id="fnref7"><a href="#fn7">[7]</a></sup></p>
+          <p>Secondary tests will include average directional bias, seat-call accuracy, error in the projected Democratic seat total, and error in the national environment associated with the decisive 218th seat.</p>
+          <p>The board, assumptions, benchmark definitions, rating conversion, special-election margin rules, and scoring procedures will be frozen before the general election. The post-election review will report where the Conversion Model improved on simpler approaches, where it did not, and whether transmission, incumbency, remapping, local judgment, or board selection produced the largest errors.</p>
+          <p>That test turns the Conversion Model from an argument about how congressional forecasting should work into a falsifiable prediction system.</p>
+          <h2 id="what-the-model-contributes">What the Conversion Model contributes</h2>
+          <p>The model’s contribution is not a claim that the 2026 election will finish at exactly 221 Democratic seats.</p>
+          <p>Its contribution is a disciplined framework for translating a national political environment into district outcomes when three complications matter at once: districts respond differently to national movement, incumbents possess personal electoral capital, and redistricting changes the electorate to which past results must be applied.<sup id="fnref8"><a href="#fn8">[8]</a></sup></p>
+          <p>The framework produces several outputs from the same model: a central seat estimate, a range for unresolved races, district-level projections, a seat ladder, a comparison between enacted and previous maps, sensitivity tests for transmission and incumbency, and a post-election scoring rule.</p>
+          <p>Its first application yields three findings.</p>
+          <p>A strong Democratic national year can produce a narrow majority of about 221 seats. Under the central transmission assumptions, the enacted maps move the national position required for control from roughly even to a Democratic lead of about 3½ points. Under the historical transmission benchmark, the enacted-map threshold is about a 2.6-point Democratic lead, while the comparator remains close to even. The higher entry threshold does not make the immediate downside of a Democratic majority correspondingly more fragile.</p>
+          <p>These findings coexist because they describe different parts of the same system. At a strong national operating point, the tide reaches enough later-arriving seats to restore most of the old total. At the threshold for control, those seats have not yet arrived.</p>
+          <p>The Conversion Model is built to answer not only who is ahead, but why, under what national conditions, and which assumptions would have to change for the answer to move.</p>
+          <p class="note-pull-quote"><strong>The tide restores most of the seats, but the map relocates the governing frontier.</strong></p>
+          <h2 id="release-note">Release note</h2>
+          <p>The article rounds national vote margins and seat thresholds for readability. The ECM dashboard will present selected scenario controls and seat-ladder outputs as it is developed. The underlying model files, district audit files, formulas, and workbook will not be distributed.</p>
+          <p>Calculations use signed Democratic-minus-Republican margins. The central scenario is a Democratic two-party House-vote advantage of 5.5 points, compared with a 2024 all-contested reference environment of a 2.15-point Republican advantage. The resulting national movement is 7.65 points. The exact enacted-map majority threshold is a 3.4269-point Democratic advantage; the previous-map comparator is a 0.0946-point Republican advantage. The exact difference between the two threshold levels is 3.5215 points, and the central scale-free movement ratio is 2.7133.</p>
+          <section id="endnotes" data-nosnippet>
+            <h2>Endnotes</h2>
+            <p id="fn1" class="endnote"><span>[1]</span> The 2024 congressional district results are drawn from the Office of the Clerk of the U.S. House of Representatives. The national reference environment uses Split Ticket’s estimate of the two-party House vote if every district had been contested, which places the 2024 result at a 2.15-point Republican advantage. Presidential results by congressional district were assembled from official state returns and cross-checked against the public 2024 presidential-by-district compilation maintained by Jay Timm. Candidate, map, and race-status inputs were checked against official state sources and the Cook Political Report as of July 25, 2026. <a href="#fnref1">Back</a></p>
+            <p id="fn2" class="endnote"><span>[2]</span> The historical transmission center is based on the movement in Split Ticket’s all-contested House-vote series from a 1.63-point Republican advantage in 2016 to a 7.26-point Democratic advantage in 2018, compared with an estimated four-to-five-point movement at the competitive-seat frontier. The central value of 0.47 is a historical benchmark, not an estimate fitted to the 2026 board. Cook Political Report’s raw 2018 House popular-vote tracker is used as a basis check but is not mixed with the all-contested series. <a href="#fnref2">Back</a></p>
+            <p id="fn3" class="endnote"><span>[3]</span> Map status and enacted district boundaries were verified through official state authorities. Principal sources include the Arizona Independent Redistricting Commission, California Secretary of State, Florida Office of Economic and Demographic Research, Ohio Redistricting Commission, North Carolina General Assembly, and Texas Legislature’s redistricting portal. The Florida, North Carolina, and California sources expressly identify congressional plans used for the 2026 election. <a href="#fnref3">Back</a></p>
+            <p id="fn4" class="endnote"><span>[4]</span> Arizona’s 6th District 2024 congressional margin is calculated from the official House election statistics. The district’s unchanged-map treatment is based on Arizona’s certified congressional map. The transmission value and 2026 projection are model judgments; the source note supports the historical result and map status, not the forecast itself. <a href="#fnref4">Back</a></p>
+            <p id="fn5" class="endnote"><span>[5]</span> Primary, nominee, and ballot status for the three formal holds was checked against the Florida Division of Elections, Michigan Department of State, and Wisconsin Elections Commission. Cook Political Report ratings were used as an external race-status reference, not as a model input that determines the projected margin. <a href="#fnref5">Back</a></p>
+            <p id="fn6" class="endnote"><span>[6]</span> The proposed rating benchmark uses Cook Political Report categories and official realized district margins from the 2018 and 2022 congressional elections. The category-to-margin conversion and benchmark classifications will be fixed in the dated pre-election archive before 2026 results are known. <a href="#fnref6">Back</a></p>
+            <p id="fn7" class="endnote"><span>[7]</span> California permits the top two primary finishers to advance even when both state the same party preference. Alaska general elections use ranked-choice voting and publish results by round. Those rules motivate the special scoring conventions described in the text. <a href="#fnref7">Back</a></p>
+            <p id="fn8" class="endnote"><span>[8]</span> The term <em>Electoral Conversion Model</em> reflects Precision Analytica’s experience with patient-based commercial forecasting, in which a population-level condition is converted through measurable stages into an observable outcome. The analogy is limited to forecasting architecture: here, national political movement is converted into district margins, seats, and control of the chamber. <a href="#fnref8">Back</a></p>
+          </section>
+          <section id="references" data-nosnippet>
+            <h2>References</h2>
+            <ul class="reference-list">
+              <li>Alaska Division of Elections. <a href="https://www.elections.alaska.gov/Core/RCV.php">Ranked Choice Voting</a>.</li>
+              <li>Arizona Independent Redistricting Commission. <a href="https://irc.az.gov/index.php/maps">Official Maps</a>.</li>
+              <li>California Secretary of State. <a href="https://www.sos.ca.gov/elections/california-redistricting">California Redistricting</a>.</li>
+              <li>California Secretary of State. <a href="https://www.sos.ca.gov/elections/voter-nominated-offices">Voter-Nominated Offices Information</a>.</li>
+              <li>Cook Political Report. <a href="https://www.cookpolitical.com/races">Find a Race</a>.</li>
+              <li>Cook Political Report. 2019. <a href="https://www.cookpolitical.com/analysis/house/house-charts/2018-house-popular-vote-tracker">“2018 House Popular Vote Tracker.”</a></li>
+              <li>Florida Division of Elections. <a href="https://dos.fl.gov/elections/candidates-committees/">Candidates and Committees</a>.</li>
+              <li>Florida Office of Economic and Demographic Research. <a href="https://www.edr.state.fl.us/Content/redistricting/2026redistricting/index.cfm">“2026 Congressional Districts.”</a></li>
+              <li>Michigan Department of State. <a href="https://www.michigan.gov/sos/elections">Elections</a>.</li>
+              <li>North Carolina General Assembly. <a href="https://www.ncleg.gov/Redistricting">Legislative and Congressional Redistricting</a>.</li>
+              <li>Office of the Clerk, U.S. House of Representatives. <a href="https://clerk.house.gov/Members/ViewElectionInformation">Election Data and Statistics of the 2024 Presidential and Congressional Election</a>.</li>
+              <li>Ohio Redistricting Commission. <a href="https://redistricting.ohio.gov/">Redistricting</a>.</li>
+              <li>Sit, Leon. 2025. <a href="https://split-ticket.org/2025/03/05/what-was-the-2024-congressional-popular-vote/">“What Was the 2024 Congressional Popular Vote?”</a> Split Ticket.</li>
+              <li>Split Ticket. <a href="https://split-ticket.org/house-generic-ballot-estimates-2008-2022-shave/">“House Generic Ballot Estimates, 2008–2024 (SHAVE).”</a></li>
+              <li>Texas Legislature. <a href="https://redistricting.capitol.texas.gov/">Redistricting Home</a>.</li>
+              <li>Timm, Jay. <a href="https://github.com/jaytimm/PresElectionResults/blob/eb3f61721d73e133e441e524e4e8785c1c105119/data-raw/2024%20Pres%20by%20CD%20-%20Main.csv">2024 Presidential Results by Congressional District</a>. GitHub.</li>
+              <li>Wisconsin Elections Commission. <a href="https://elections.wi.gov/elections">Elections</a>.</li>
+            </ul>
+          </section>
+          <div class="related-note">
+            <p class="eyebrow">Explore more</p>
+            <ul>
+              <li><a href="/research-notes/">Explore more research notes</a></li>
+              <li><a href="/working-papers/">Browse working papers</a></li>
+              <li><a href="/about/">About Precision Analytica</a></li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <span>&copy; 2026 Precision Analytica &middot; <a href="mailto:info@precisionanalytica.com">info@precisionanalytica.com</a></span>
+    </footer>
+  </body>
+</html>
