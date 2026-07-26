@@ -160,21 +160,8 @@
           <h3 id="arizona-6-example">How the pieces fit together: Arizona’s 6th District</h3>
           <p>Arizona’s 6th District provides a compact example of the model.</p>
           <p>The Republican candidate won the district by 2.51 percentage points in 2024. Because the lines are unchanged and the incumbent is returning, the model uses that congressional margin directly. The result already contains the incumbent’s personal electoral strength, so adding a separate incumbency term would count it twice.</p>
-          <p>The central national scenario moves 7.65 points toward Democrats from the 2024 reference result. Arizona’s 6th has a transmission value of 0.45, so it receives about 3.44 points of that movement. The projection is therefore:</p>
-          <p class="note-summary">Republican lead of 2.51 points, less 3.44 points of Democratic movement, equals a Democratic lead of about 0.93 points.</p>
-          <nav class="note-toc" aria-label="On this page">
-            <p>On this page</p>
-            <ul>
-              <li><a href="#why-a-district-level-model">Why a district-level model</a></li>
-              <li><a href="#national-vote-transmission">Transmission, incumbency, and remapping</a></li>
-              <li><a href="#arizona-6-example">Arizona’s 6th District example</a></li>
-              <li><a href="#2026-house-forecast">The 2026 House forecast</a></li>
-              <li><a href="#redistricting-and-house-control">Redistricting and the threshold for control</a></li>
-              <li><a href="#uncertainty">Where uncertainty remains</a></li>
-              <li><a href="#how-the-model-will-be-judged">How the model will be judged</a></li>
-            </ul>
-          </nav>
-          <p>The same inputs place the district on the seat ladder. Erasing the original 2.51-point Republican lead at a transmission rate of 0.45 requires 5.58 points of national movement. From the 2024 starting point, that corresponds to a Democratic national lead of about 3.43 points.</p>
+          <p>The central national scenario moves 7.7 points toward Democrats from the 2024 reference result. Arizona’s 6th has a transmission value of 0.45, so the district receives about 3.4 points of that movement. Those 3.4 points more than erase the 2.5-point Republican lead, leaving Democrats ahead by about one point.</p>
+          <p>The same inputs place the district on the seat ladder. At a transmission rate of 0.45, Democrats need about 5.6 points of national movement to erase the original Republican lead. They begin 2.15 points behind nationally, so that movement leaves them about 3.4 points ahead.</p>
           <p>Arizona’s 6th is therefore the decisive 218th Democratic seat under the enacted maps. The example shows how the model selects the baseline, avoids double-counting incumbency, applies national transmission, and converts the district result into a chamber-control threshold.<sup id="fnref4"><a href="#fn4">[4]</a></sup></p>
           <h2 id="2026-house-forecast">The 2026 House forecast</h2>
           <p>The model’s central scenario assumes that Democrats win the national two-party House vote by about 5½ percentage points.</p>
@@ -222,7 +209,7 @@
           <p>Pennsylvania’s 7th District shows the other side of the same mechanism. Under the previous configuration, it was the seat that gave Democrats their majority in a nearly tied national vote. Under the enacted maps, it still projects Democratic in the central scenario. It ceases to be the marginal seat that determines control.</p>
           <p>What changed was the stack beneath those districts. Several lower-cost Democratic seats were removed or made more difficult in Florida, Ohio, North Carolina, and Texas. California supplies replacement opportunities, but they arrive after the national environment has moved farther toward Democrats.</p>
           <p>This explains why the enacted and previous maps can produce similar seat totals in a strong Democratic year while carrying different majority thresholds. By the time Democrats lead nationally by about 5½ points, most replacement seats have entered the coalition. Near an even national vote, they have not.</p>
-          <p>Measured as movement from the same 2024 starting point, the enacted maps require about 5.6 points to reach a majority, compared with about 2.1 points under the previous configuration. The enacted maps therefore require about 2.7 times as much movement. That ratio survives proportional changes in the transmission scale because rescaling enlarges or shrinks both required movements by the same factor. The difference measured in national percentage points does not have that invariance.</p>
+          <p>Measured as movement from the same 2024 starting point, the enacted maps require about 5.6 points to reach a majority, compared with about 2.1 points under the previous configuration. The enacted maps therefore require about 2.7 times as much movement. Stronger transmission would shrink both requirements, but the enacted maps would still demand about 2.7 times as much movement as long as the same districts remain at the threshold.</p>
           <p>The movement from roughly even to a Democratic lead of about 3½ points is the central electoral finding. The 2.7 ratio is the scale-free robustness result.</p>
           <p>For the public, the meaning is direct: Democrats can win control, but they need a clearer national victory before their votes convert into a majority.</p>
           <h2 id="majority-fragility">A second finding: higher entry cost does not mean greater immediate fragility</h2>
@@ -235,7 +222,30 @@
           <h2 id="uncertainty">Where uncertainty remains</h2>
           <p>The Conversion Model is designed to make uncertainty visible rather than to eliminate it.</p>
           <p>The largest uncertainty is the national environment. The 221-seat estimate is conditional on Democrats winning the national two-party House vote by about 5½ points. A weaker or stronger result changes the seat total. The ECM dashboard’s national-vote control is therefore more informative than one forecast number.</p>
-          <p>A second uncertainty concerns transmission. The board’s mean transmission value is about 0.40, below the historical benchmark of about 0.47. Lower transmission increases the national movement required to move the decisive districts. Under the board’s central values, the enacted maps require a Democratic national lead of about 3½ points, compared with a nearly tied vote under the previous configuration. If the historical transmission benchmark were used instead, the enacted-map requirement would fall to about a 2.6-point Democratic lead, while the comparator would sit at a small Republican lead close to an even vote.</p>
+          <p>A second uncertainty concerns transmission. The board’s mean transmission value is about 0.40, below the historical benchmark of about 0.47. Lower transmission increases the national movement required to move the decisive districts. The resulting majority thresholds are:</p>
+          <div class="note-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Transmission assumption</th>
+                  <th>Enacted maps</th>
+                  <th>Previous configuration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Current 44-district board, mean about 0.40</th>
+                  <td>Democratic lead of about <strong>3.4 points</strong></td>
+                  <td>National vote about <strong>even</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row">Historical benchmark, about 0.47</th>
+                  <td>Democratic lead of about <strong>2.6 points</strong></td>
+                  <td>Republican lead of about <strong>0.4 points</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <p>This does not reverse the finding. Under either transmission benchmark, the enacted maps require a clearer Democratic national result than the previous configuration. It does mean that the precise threshold level depends on the assumed strength of district transmission.</p>
           <p>A third uncertainty concerns incumbency. The central model carries forward the full measured incumbent advantage for remapped returning members, but that advantage may decay when the electorate changes. The adjustable carry factor shows where the assumption matters.</p>
           <p>A fourth uncertainty concerns candidates and unresolved contests. Primaries, retirements, independent candidacies, campaign quality, fundraising, and local events can move individual races. The three formal holds are one visible expression of this uncertainty. Separate local adjustments are permitted, but they default to zero and must be documented.</p>
@@ -268,7 +278,7 @@
           <section id="endnotes" data-nosnippet>
             <h2>Endnotes</h2>
             <p id="fn1" class="endnote"><span>[1]</span> The 2024 congressional district results are drawn from the Office of the Clerk of the U.S. House of Representatives. The national reference environment uses Split Ticket’s estimate of the two-party House vote if every district had been contested, which places the 2024 result at a 2.15-point Republican advantage. Presidential results by congressional district were assembled from official state returns and cross-checked against the public 2024 presidential-by-district compilation maintained by Jay Timm. Candidate, map, and race-status inputs were checked against official state sources and the Cook Political Report as of July 25, 2026. <a href="#fnref1">Back</a></p>
-            <p id="fn2" class="endnote"><span>[2]</span> The historical transmission center is based on the movement in Split Ticket’s all-contested House-vote series from a 1.63-point Republican advantage in 2016 to a 7.26-point Democratic advantage in 2018, compared with an estimated four-to-five-point movement at the competitive-seat frontier. The central value of 0.47 is a historical benchmark, not an estimate fitted to the 2026 board. Cook Political Report’s raw 2018 House popular-vote tracker is used as a basis check but is not mixed with the all-contested series. <a href="#fnref2">Back</a></p>
+            <p id="fn2" class="endnote"><span>[2]</span> Split Ticket’s all-contested House-vote series moves from a 1.63-point Republican advantage in 2016 to a 7.26-point Democratic advantage in 2018, a national movement of 8.89 points. The competitive-seat frontier moved by roughly four to five points over the same period, implying a transmission range of about 0.45 to 0.56. The benchmark used here is 4.2 divided by 8.89, or approximately 0.47. Choosing a value near the lower end is conservative for the comparison with the current board’s 0.40 mean because it narrows, rather than enlarges, the disclosed gap. The 0.47 figure is a historical benchmark, not an estimate fitted to the 2026 board. Cook Political Report’s raw 2018 House popular-vote tracker is used as a basis check but is not mixed with the all-contested series. <a href="#fnref2">Back</a></p>
             <p id="fn3" class="endnote"><span>[3]</span> Map status and enacted district boundaries were verified through official state authorities. Principal sources include the Arizona Independent Redistricting Commission, California Secretary of State, Florida Office of Economic and Demographic Research, Ohio Redistricting Commission, North Carolina General Assembly, and Texas Legislature’s redistricting portal. The Florida, North Carolina, and California sources expressly identify congressional plans used for the 2026 election. <a href="#fnref3">Back</a></p>
             <p id="fn4" class="endnote"><span>[4]</span> Arizona’s 6th District 2024 congressional margin is calculated from the official House election statistics. The district’s unchanged-map treatment is based on Arizona’s certified congressional map. The transmission value and 2026 projection are model judgments; the source note supports the historical result and map status, not the forecast itself. <a href="#fnref4">Back</a></p>
             <p id="fn5" class="endnote"><span>[5]</span> Primary, nominee, and ballot status for the three formal holds was checked against the Florida Division of Elections, Michigan Department of State, and Wisconsin Elections Commission. Cook Political Report ratings were used as an external race-status reference, not as a model input that determines the projected margin. <a href="#fnref5">Back</a></p>
