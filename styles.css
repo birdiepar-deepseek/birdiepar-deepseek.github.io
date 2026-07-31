@@ -1901,7 +1901,7 @@ body:not(.home-v03) footer span {
 
 .home-v03 .research-feature-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1.85fr) minmax(260px, 0.74fr) minmax(260px, 0.74fr);
+  grid-template-columns: minmax(0, 1.55fr) repeat(3, minmax(210px, 0.75fr));
   background: var(--home-white);
   border: 1px solid var(--home-line);
 }
@@ -2060,7 +2060,8 @@ body:not(.home-v03) footer span {
     grid-column: 1 / -1;
   }
 
-  .home-v03 .research-feature-card:nth-child(2) {
+  .home-v03 .research-feature-card:nth-child(2),
+  .home-v03 .research-feature-card:nth-child(4) {
     border-left: 0;
   }
 
