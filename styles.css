@@ -2198,3 +2198,121 @@ body:not(.home-v03) footer span {
 .note-body td {
   text-align: right;
 }
+
+/* When Finance Wags Trade long-form enhancements */
+.when-finance-wags-trade-page .note-header h1 {
+  font-size: 4.25rem;
+  letter-spacing: 0;
+}
+
+.when-finance-wags-trade-page .note-subtitle {
+  font-size: 1.75rem;
+}
+
+.when-finance-wags-trade-page .note-body h2 {
+  font-size: 2.4rem;
+}
+
+.when-finance-wags-trade-page .note-body > p {
+  font-size: 1.25rem;
+}
+
+.when-finance-wags-trade-page .note-status {
+  margin: 1.2rem 0 0;
+  color: #5f6d70;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+}
+
+.when-finance-wags-trade-page .note-body h2 {
+  break-after: avoid-page;
+}
+
+.when-finance-wags-trade-page .footnote-ref {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.67em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.when-finance-wags-trade-page .footnote-ref a {
+  position: relative;
+  color: var(--accent-dark);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.when-finance-wags-trade-page .footnote-ref a::after {
+  position: absolute;
+  inset: -1.35rem -0.8rem;
+  content: "";
+}
+
+.when-finance-wags-trade-page .note-endnotes {
+  margin-top: 3.2rem;
+}
+
+.when-finance-wags-trade-page .note-endnotes hr {
+  margin: 0 0 2.6rem;
+  border: 0;
+  border-top: 1px solid var(--site-warm-line);
+}
+
+.when-finance-wags-trade-page .note-endnotes ol {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.when-finance-wags-trade-page .note-endnotes li {
+  margin: 0 0 1.15rem;
+  padding-left: 0.3rem;
+  overflow-wrap: anywhere;
+  color: #425156;
+  font-family: var(--site-serif);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.when-finance-wags-trade-page .note-endnotes li > a:not(.footnote-backref) {
+  color: var(--accent-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+
+.when-finance-wags-trade-page .footnote-backref {
+  display: inline-block;
+  margin: -0.5rem -0.35rem;
+  padding: 0.5rem 0.35rem;
+}
+
+@media (max-width: 780px) {
+  .when-finance-wags-trade-page .note-header h1 {
+    font-size: 2.45rem;
+  }
+
+  .when-finance-wags-trade-page .note-subtitle {
+    font-size: 1.35rem;
+  }
+
+  .when-finance-wags-trade-page .note-body h2 {
+    font-size: 1.9rem;
+  }
+
+  .when-finance-wags-trade-page .note-body > p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .when-finance-wags-trade-page .note-pull-quote {
+    font-size: 1.2rem;
+  }
+
+  .when-finance-wags-trade-page .note-endnotes ol {
+    padding-left: 1.15rem;
+  }
+
+  .when-finance-wags-trade-page .note-endnotes li {
+    font-size: 0.98rem;
+  }
+}
