@@ -2135,6 +2135,20 @@ body:not(.home-v03) footer span {
   text-underline-offset: 0.18em;
 }
 
+/* Keep linked and unlinked library card headings typographically identical. */
+.library-page .research-note-card h3 a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+
+.library-page .research-note-card h3 a:hover,
+.library-page .research-note-card h3 a:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 /* Research note enhancements for forecast-style articles */
 .note-toc {
   margin: 0 0 2rem;
