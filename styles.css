@@ -2330,3 +2330,138 @@ body:not(.home-v03) footer span {
     font-size: 0.98rem;
   }
 }
+
+/* Long-form research note treatment */
+.long-form-note-page .note-header h1 {
+  font-size: 3.65rem;
+  letter-spacing: 0;
+}
+
+.long-form-note-page .note-subtitle {
+  font-size: 1.55rem;
+}
+
+.long-form-note-page .note-dek {
+  max-width: 760px;
+  margin: 1.35rem 0 0;
+  color: #4e5d62;
+  font-family: var(--site-serif);
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.long-form-note-page .note-body h2 {
+  break-after: avoid-page;
+  font-size: 2.25rem;
+}
+
+.long-form-note-page .note-body > p {
+  font-size: 1.22rem;
+}
+
+.long-form-note-page .footnote-ref {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.67em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.long-form-note-page .footnote-ref a {
+  position: relative;
+  color: var(--accent-dark);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.long-form-note-page .footnote-ref a::after {
+  position: absolute;
+  inset: -1.35rem -0.8rem;
+  content: "";
+}
+
+.long-form-note-page .note-endnotes {
+  margin-top: 3.2rem;
+}
+
+.long-form-note-page .note-endnotes hr {
+  margin: 0 0 2.6rem;
+  border: 0;
+  border-top: 1px solid var(--site-warm-line);
+}
+
+.long-form-note-page .note-endnotes ol {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.long-form-note-page .note-endnotes li {
+  margin: 0 0 1.35rem;
+  padding-left: 0.3rem;
+  overflow-wrap: anywhere;
+  color: #425156;
+  font-family: var(--site-serif);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.long-form-note-page .note-endnotes li > a:not(.footnote-backref) {
+  color: var(--accent-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+
+.long-form-note-page .footnote-backref {
+  display: inline-block;
+  margin: -0.5rem -0.35rem;
+  padding: 0.5rem 0.35rem;
+}
+
+.long-form-note-page .note-references {
+  margin-top: 3.2rem;
+}
+
+.long-form-note-page .reference-list {
+  margin: 0;
+  padding: 0;
+}
+
+.long-form-note-page .reference-list p {
+  margin: 0 0 1rem;
+  overflow-wrap: anywhere;
+  color: #425156;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 780px) {
+  .long-form-note-page .note-header h1 {
+    font-size: 2.35rem;
+  }
+
+  .long-form-note-page .note-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .long-form-note-page .note-dek {
+    font-size: 1.05rem;
+  }
+
+  .long-form-note-page .note-body h2 {
+    font-size: 1.75rem;
+  }
+
+  .long-form-note-page .note-body > p {
+    font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .long-form-note-page .note-endnotes ol {
+    padding-left: 1.15rem;
+  }
+
+  .long-form-note-page .note-endnotes li,
+  .long-form-note-page .reference-list p {
+    font-size: 0.96rem;
+  }
+}
