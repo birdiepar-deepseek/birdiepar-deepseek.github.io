@@ -2551,3 +2551,38 @@ body:not(.home-v03) footer span {
     font-size: 1.05rem;
   }
 }
+
+/* Beyond Prices research note quotations */
+.beyond-prices-page .note-body blockquote {
+  margin: 2rem 0;
+  padding: 0.35rem 0 0.35rem 1.4rem;
+  border-left: 3px solid var(--accent);
+}
+
+.beyond-prices-page .note-body blockquote p {
+  margin: 0 0 0.8rem;
+  color: #34464c;
+  font-family: var(--site-serif);
+  font-size: 1.22rem;
+  line-height: 1.65;
+}
+
+.beyond-prices-page .note-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.beyond-prices-page .note-references hr {
+  margin: 0 0 2.6rem;
+  border: 0;
+  border-top: 1px solid var(--site-warm-line);
+}
+
+@media (max-width: 780px) {
+  .beyond-prices-page .note-body blockquote {
+    padding-left: 1rem;
+  }
+
+  .beyond-prices-page .note-body blockquote p {
+    font-size: 1.1rem;
+  }
+}
