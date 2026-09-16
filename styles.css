@@ -2586,3 +2586,52 @@ body:not(.home-v03) footer span {
     font-size: 1.1rem;
   }
 }
+
+/* Animus and Geist research note reading treatment */
+.animus-geist-page .note-abstract p {
+  color: #34464c;
+  font-size: 1.22rem;
+}
+
+.animus-geist-page .note-body > hr,
+.animus-geist-page .note-references > hr {
+  margin: 3.2rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--site-warm-line);
+}
+
+.animus-geist-page .note-body blockquote {
+  margin: 2rem 0;
+  padding: 0.35rem 0 0.35rem 1.4rem;
+  border-left: 3px solid var(--accent);
+}
+
+.animus-geist-page .note-body blockquote p {
+  margin: 0;
+  color: #34464c;
+  font-size: 1.22rem;
+  line-height: 1.65;
+}
+
+.animus-geist-page .note-body > ul {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+  font-family: var(--site-serif);
+  font-size: clamp(1.15rem, 1.65vw, 1.34rem);
+  line-height: 1.72;
+}
+
+.animus-geist-page .note-body > ul li + li {
+  margin-top: 0.35rem;
+}
+
+@media (max-width: 780px) {
+  .animus-geist-page .note-body blockquote {
+    padding-left: 1rem;
+  }
+
+  .animus-geist-page .note-abstract p,
+  .animus-geist-page .note-body blockquote p {
+    font-size: 1.1rem;
+  }
+}
